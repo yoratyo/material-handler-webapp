@@ -1,0 +1,64 @@
+<!-- Sidenav -->
+<nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
+    <div class="scrollbar-inner">
+        <!-- Brand -->
+        <div class="sidenav-header  align-items-center">
+            <a class="navbar-brand" href="javascript:void(0)">
+                <img src="img/brand/kalbe1.png" class="navbar-brand-img" alt="...">
+            </a>
+        </div>
+        <div class="navbar-inner">
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+                <!-- Nav items -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        {{ if .isHomeMenu }}<a class="nav-link active" href="/page/home">{{ else }}<a class="nav-link"
+                                                                                                      href="/page/home">{{ end }}
+                                <i class="ni ni-tv-2 text-primary"></i>
+                                <span class="nav-link-text">Home</span>
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        {{ if .isPickingMenu }}<a class="nav-link active" href="/page/picking">{{ else }}<a
+                                    class="nav-link" href="/page/picking">{{ end }}
+                                <i class="ni ni-ambulance text-orange"></i>
+                                <span class="nav-link-text">Picking Material</span>
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        {{ if .isNFCMenu }}<a class="nav-link active" href="/page/nfc">{{ else }}<a class="nav-link"
+                                                                                                    href="/page/nfc">{{ end }}
+                                <i class="ni ni-credit-card text-primary"></i>
+                                <span class="nav-link-text">NFC Registration</span>
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        {{ if .isGatewayMenu }}<a class="nav-link active" href="/page/gateway">{{ else }}<a
+                                    class="nav-link" href="/page/gateway">{{ end }}
+                                <i class="ni ni-tablet-button text-yellow"></i>
+                                <span class="nav-link-text">Gateway Area</span>
+                            </a>
+                    </li>
+                </ul>
+                <!-- Divider -->
+                <hr class="my-3">
+                <!-- Heading -->
+                <h6 class="navbar-heading p-0 text-muted">
+                    <span class="docs-normal">Documentation</span>
+                </h6>
+                <!-- Navigation -->
+                <ul class="navbar-nav mb-md-3">
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html"
+                           target="_blank">
+                            <i class="ni ni-spaceship"></i>
+                            <span class="nav-link-text">Getting started</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
