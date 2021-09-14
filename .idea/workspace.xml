@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0177e30-160f-426e-b971-649aeb787594" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gateway.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gateway.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nfc.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nfc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/picking.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/picking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sidebar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,22 +74,22 @@
       <screen x="0" y="25" width="1440" height="820" />
     </state>
     <state x="433" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.820@0.25.1440.820" timestamp="1629902796030" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1631378760959">
+    <state width="1398" height="133" key="GridCell.Tab.0.bottom" timestamp="1631630990075">
       <screen x="0" y="25" width="1440" height="820" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.25.1440.820@0.25.1440.820" timestamp="1631378760959" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1631378760958">
+    <state width="1398" height="133" key="GridCell.Tab.0.bottom/0.25.1440.820@0.25.1440.820" timestamp="1631630990075" />
+    <state width="1398" height="133" key="GridCell.Tab.0.center" timestamp="1631630990074">
       <screen x="0" y="25" width="1440" height="820" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.center/0.25.1440.820@0.25.1440.820" timestamp="1631378760958" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1631378760957">
+    <state width="1398" height="133" key="GridCell.Tab.0.center/0.25.1440.820@0.25.1440.820" timestamp="1631630990074" />
+    <state width="1398" height="133" key="GridCell.Tab.0.left" timestamp="1631630990074">
       <screen x="0" y="25" width="1440" height="820" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.left/0.25.1440.820@0.25.1440.820" timestamp="1631378760957" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1631378760958">
+    <state width="1398" height="133" key="GridCell.Tab.0.left/0.25.1440.820@0.25.1440.820" timestamp="1631630990074" />
+    <state width="1398" height="133" key="GridCell.Tab.0.right" timestamp="1631630990075">
       <screen x="0" y="25" width="1440" height="820" />
     </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.right/0.25.1440.820@0.25.1440.820" timestamp="1631378760958" />
+    <state width="1398" height="133" key="GridCell.Tab.0.right/0.25.1440.820@0.25.1440.820" timestamp="1631630990075" />
     <state x="385" y="169" width="670" height="58" key="search.everywhere.popup" timestamp="1631339891508">
       <screen x="0" y="25" width="1440" height="820" />
     </state>
