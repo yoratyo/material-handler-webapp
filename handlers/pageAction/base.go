@@ -10,6 +10,7 @@ type (
 	Handler interface {
 		DoLogin(ctx *gin.Context)
 		DoLogout(ctx *gin.Context)
+		SubmitPickingSlip(ctx *gin.Context)
 	}
 	handler struct {
 		domain   domain.Domain

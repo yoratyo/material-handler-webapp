@@ -34,6 +34,9 @@ func NewRouter(a *App) *gin.Engine {
 	auth := action.Group("/auth")
 	auth.POST("/login", a.Handler.PageAction.DoLogin)
 	auth.GET("/logout", a.Handler.PageAction.DoLogout)
+	// PickingSlip action
+	pickingSlip := action.Group("/pickingSlip")
+	pickingSlip.POST("/submit", a.Handler.PageAction.SubmitPickingSlip)
 
 	return router
 }

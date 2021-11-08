@@ -1,0 +1,29 @@
+package repository
+
+import (
+	"github.com/gin-gonic/gin"
+	"github.com/yoratyo/material-handler-webapp/model/dao"
+	"github.com/yoratyo/material-handler-webapp/shared"
+)
+
+func (r *repository) GetCountPendingToPick(ctx *gin.Context) (uint64, error) {
+	orm, err := shared.GetORMTransaction(ctx, r.resource)
+	if err != nil {
+		return 0, err
+	}
+
+	var total int64
+
+	query := orm.
+		WithContext(ctx).
+		Model(&dao.MasterPickingSlip{}).
+		Where("is_ready_for_pick = ?", true).
+		Where("is_complete_pick = ?", false).
+		Where("is_cancel = ?", false)
+
+	if err := query.Count(&total).Error; err != nil {
+		return 0, err
+	}
+
+	return uint64(total), nil
+}

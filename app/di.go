@@ -2,6 +2,10 @@ package app
 
 import (
 	"github.com/yoratyo/material-handler-webapp/domain"
+	pickSlipRepository "github.com/yoratyo/material-handler-webapp/domain/pickingSlip/repository"
+	pickSlipService "github.com/yoratyo/material-handler-webapp/domain/pickingSlip/service"
+	transactionNFCRepository "github.com/yoratyo/material-handler-webapp/domain/transactionNFC/repository"
+	transactionNFCService "github.com/yoratyo/material-handler-webapp/domain/transactionNFC/service"
 	userRepository "github.com/yoratyo/material-handler-webapp/domain/user/repository"
 	userService "github.com/yoratyo/material-handler-webapp/domain/user/service"
 	"github.com/yoratyo/material-handler-webapp/handlers"
@@ -21,6 +25,10 @@ func BuildRuntime() (*App, error) {
 		// Domain, Repository & Service
 		userRepository.New,
 		userService.New,
+		pickSlipRepository.New,
+		pickSlipService.New,
+		transactionNFCRepository.New,
+		transactionNFCService.New,
 		domain.New,
 		// Handlers
 		api.NewHandler,

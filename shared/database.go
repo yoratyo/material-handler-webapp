@@ -1,7 +1,9 @@
 package shared
 
 import (
+	"errors"
 	"fmt"
+	"github.com/gin-gonic/gin"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"os"
@@ -17,4 +19,19 @@ func NewDB() (*gorm.DB, error) {
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 
 	return db, err
+}
+
+func GetORMTransaction(c *gin.Context, resource Resource) (*gorm.DB, error) {
+	var ok bool
+
+	orm := resource.DB
+
+	trxInt, exist := c.Get(MySQLTransaction)
+	if exist {
+		if orm, ok = trxInt.(*gorm.DB); !ok {
+			return nil, errors.New("invalid transaction")
+		}
+	}
+
+	return orm, nil
 }

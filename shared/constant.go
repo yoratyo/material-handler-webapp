@@ -1,5 +1,6 @@
 package shared
 
 const (
-	USERKEY = "userId"
+	USERKEY          = "userId"
+	MySQLTransaction = "Mysql-transaction"
 )
