@@ -37,6 +37,13 @@ func NewRouter(a *App) *gin.Engine {
 	// PickingSlip action
 	pickingSlip := action.Group("/pickingSlip")
 	pickingSlip.POST("/submit", a.Handler.PageAction.SubmitPickingSlip)
+	// Transaction NFC action
+	transactionNFC := action.Group("/transaction-NFC")
+	transactionNFC.POST("/submit", a.Handler.PageAction.SubmitRegisterNFC)
+
+	// Websocket action routes
+	websocket := router.Group("/ws")
+	websocket.GET("/statusNFC", a.Handler.WebSocket.StatusNFC)
 
 	return router
 }

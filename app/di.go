@@ -2,6 +2,8 @@ package app
 
 import (
 	"github.com/yoratyo/material-handler-webapp/domain"
+	materialRepository "github.com/yoratyo/material-handler-webapp/domain/masterMaterial/repository"
+	materialService "github.com/yoratyo/material-handler-webapp/domain/masterMaterial/service"
 	pickSlipRepository "github.com/yoratyo/material-handler-webapp/domain/pickingSlip/repository"
 	pickSlipService "github.com/yoratyo/material-handler-webapp/domain/pickingSlip/service"
 	transactionNFCRepository "github.com/yoratyo/material-handler-webapp/domain/transactionNFC/repository"
@@ -12,6 +14,7 @@ import (
 	"github.com/yoratyo/material-handler-webapp/handlers/api"
 	"github.com/yoratyo/material-handler-webapp/handlers/page"
 	"github.com/yoratyo/material-handler-webapp/handlers/pageAction"
+	"github.com/yoratyo/material-handler-webapp/handlers/websocket"
 	"github.com/yoratyo/material-handler-webapp/shared"
 	"go.uber.org/dig"
 )
@@ -29,11 +32,14 @@ func BuildRuntime() (*App, error) {
 		pickSlipService.New,
 		transactionNFCRepository.New,
 		transactionNFCService.New,
+		materialRepository.New,
+		materialService.New,
 		domain.New,
 		// Handlers
 		api.NewHandler,
 		page.NewHandler,
 		pageAction.NewHandler,
+		websocket.NewHandler,
 		handlers.New,
 		// App
 		NewApp,

@@ -11,7 +11,8 @@ import (
 
 func (h handler) SubmitPickingSlip(c *gin.Context) {
 	var (
-		err error
+		err  error
+		path = "/page/picking"
 	)
 
 	session := sessions.Default(c)
@@ -37,7 +38,7 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	var req pickingSlipDTO.PatchCompletePickRequestDTO
 	err = c.ShouldBind(&req)
 	if err != nil {
-		addError(c, err.Error())
+		addError(c, err.Error(), path)
 		return
 	}
 
@@ -50,7 +51,7 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	defer func() {
 		if r := recover(); r != nil {
 			tx.Rollback()
-			addError(c, "Panic error")
+			addError(c, "Panic error", path)
 			return
 		}
 	}()
@@ -59,7 +60,7 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	pickingSlip, err := h.domain.PickingSlip.GetByID(c, req.ID)
 	if err != nil {
 		tx.Rollback()
-		addError(c, err.Error())
+		addError(c, err.Error(), path)
 
 		return
 	}
@@ -67,13 +68,13 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	// validate picking slip
 	if !pickingSlip.IsReadyForPick || pickingSlip.IsCancel || pickingSlip.IsCompletePick {
 		tx.Rollback()
-		addError(c, "Data picking slip not valid to pick")
+		addError(c, "Data picking slip not valid to pick", path)
 
 		return
 	}
 	if pickingSlip.WeightPack == nil {
 		tx.Rollback()
-		addError(c, "Weight pack is empty")
+		addError(c, "Weight pack is empty", path)
 
 		return
 	}
@@ -82,7 +83,7 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	err = h.domain.PickingSlip.PatchCompletePick(c, req.ID, req)
 	if err != nil {
 		tx.Rollback()
-		addError(c, err.Error())
+		addError(c, err.Error(), path)
 
 		return
 	}
@@ -91,7 +92,7 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	_, err = h.domain.TransactionNFC.BulkCreate(c, pickingSlip, req.ActualBag)
 	if err != nil {
 		tx.Rollback()
-		addError(c, err.Error())
+		addError(c, err.Error(), path)
 
 		return
 	}
@@ -99,19 +100,13 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	// commit transaction
 	if err := tx.Commit().Error; err != nil {
 		tx.Rollback()
-		addError(c, err.Error())
+		addError(c, err.Error(), path)
 
 		return
 	}
 
 	c.SetCookie("success", "Success to submit picking slip", 10, "/", c.Request.URL.Hostname(), false, true)
-	location := url.URL{Path: "/page/picking"}
+	location := url.URL{Path: path}
 	c.Redirect(http.StatusFound, location.RequestURI())
 	c.Abort()
-}
-
-func addError(c *gin.Context, msg string) {
-	c.SetCookie("error", msg, 10, "/", c.Request.URL.Hostname(), false, true)
-	location := url.URL{Path: "/page/picking"}
-	c.Redirect(http.StatusFound, location.RequestURI())
 }

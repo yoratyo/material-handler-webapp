@@ -8,7 +8,7 @@ type (
 
 	PatchCompletePickRequestDTO struct {
 		ID           uint64 `form:"idPickingSlip" binding:"required,gt=0"`
-		ActualBag    uint64 `form:"actualBag" binding:"required"`
+		ActualBag    uint64 `form:"actualBag" binding:"required,gt=0"`
 		OperatorPick string
 	}
 )

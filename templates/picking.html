@@ -109,7 +109,7 @@
                             <p class="mr-4"></p>
 
                             <div class="table-responsive">
-                                <table class="table align-items-center table-flush" id="pickSlipTable">
+                                <table class="table align-items-center table-flush" id="pickSlipTable" style="cursor: pointer;">
                                     <thead class="thead-light">
                                     <tr>
                                         <th scope="col">Pick Slip No</th>
@@ -117,7 +117,6 @@
                                         <th scope="col">Item</th>
                                         <th scope="col">Locator</th>
                                         <th scope="col">Total Bag</th>
-                                        <th scope="col">Submit</th>
                                     </tr>
                                     </thead>
                                     <tbody class="list">
@@ -146,12 +145,6 @@
                                             </td>
                                             <td id="{{ .TotalBag }}">
                                                 {{ .TotalBag }}
-                                            </td>
-                                            <td>
-                                                <button class="btn btn-icon btn-success" type="button"
-                                                        data-toggle="modal" data-target="#exampleModal">
-                                                    <span class="btn-inner--icon"><i class="ni ni-send"></i></span>
-                                                </button>
                                             </td>
                                         </tr>
                                     {{ end }}
@@ -207,7 +200,7 @@
                                                         <div class="row">
                                                             <div class="col-md-12">
                                                                 <div class="form-group">
-                                                                    <label class="form-control-label">Actual Bag</label><br>
+                                                                    <label class="form-control-label">Actual Quantity Bag</label><br>
                                                                     <div class="input-group input-group-merge input-group-alternative">
                                                                         <div class="input-group-prepend">
                                                                             <span class="input-group-text"><i

@@ -1,7 +1,6 @@
 package page
 
 import (
-	"fmt"
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
 	pickingSlipDTO "github.com/yoratyo/material-handler-webapp/model/dto/pickingSlip"
@@ -88,8 +87,6 @@ func (h handler) Picking(c *gin.Context) {
 	if err == nil {
 		response["successMessage"] = successMessage
 	}
-
-	fmt.Println(response)
 
 	c.HTML(http.StatusOK, "picking.html", response)
 }

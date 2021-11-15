@@ -1,0 +1,58 @@
+package service
+
+import (
+	"encoding/json"
+	"errors"
+	"fmt"
+	"github.com/gin-gonic/gin"
+	"github.com/gorilla/websocket"
+	"github.com/yoratyo/material-handler-webapp/model/dao"
+	"gorm.io/gorm"
+	"time"
+)
+
+func (s *service) SetTickerMonitoringNFC(ctx *gin.Context, conn *websocket.Conn) error {
+	var (
+		nfc dao.MonitoringNFC
+		err error
+	)
+	// we want to kick off a for loop that runs for the
+	// duration of our websockets connection
+	for {
+		// we create a new ticker that ticks every 5 seconds
+		ticker := time.NewTicker(3 * time.Second)
+
+		// every time our ticker ticks
+		for t := range ticker.C {
+			// print out that we are updating the stats
+			fmt.Printf("Updating Websocket connection %s: %+v\n", ctx.ClientIP(), t)
+
+			nfc, err = s.repository.GetMonitoringNFCByIP(ctx, ctx.ClientIP())
+			if err != nil {
+				fmt.Println(err)
+				if errors.Is(err, gorm.ErrRecordNotFound) {
+					nfc, err = s.repository.GetDefaultMonitoringNFC(ctx)
+					if err != nil {
+						fmt.Println(err)
+						return err
+					}
+				} else {
+					return err
+				}
+			}
+			// next we marshal our response into a JSON string
+			jsonString, err := json.Marshal(nfc)
+			if err != nil {
+				fmt.Println(err)
+				return err
+			}
+
+			// and finally we write this JSON string to our WebSocket
+			// connection and record any errors if there has been any
+			if err := conn.WriteMessage(websocket.TextMessage, []byte(jsonString)); err != nil {
+				fmt.Println(err)
+				return err
+			}
+		}
+	}
+}
