@@ -3,20 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e0177e30-160f-426e-b971-649aeb787594" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/di.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/di.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/domain.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/domain.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/transactionNFC/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/transactionNFC/repository.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/transactionNFC/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/transactionNFC/service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/masterMaterial/repository/patchByID.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/masterMaterial/repository/patchByID.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/pickingSlip/repository/patchByID.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pickingSlip/repository/patchByID.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/transactionNFC/repository/patchByID.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/transactionNFC/repository/patchByID.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/transactionNFC/service/setTickerMonitoringNFC.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/transactionNFC/service/setTickerMonitoringNFC.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/page/nfc.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/page/nfc.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/page/picking.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/page/picking.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/pageAction/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/pageAction/base.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/pageAction/submitPickingSlip.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/pageAction/submitPickingSlip.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/dto/pickingSlip/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/dto/pickingSlip/request.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/constant.go" beforeDir="false" afterPath="$PROJECT_DIR$/shared/constant.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/shared/helper.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/nfc.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nfc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/picking.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/picking.html" afterDir="false" />
@@ -96,25 +91,107 @@
       <screen x="0" y="25" width="1440" height="820" />
     </state>
     <state x="433" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.820@0.25.1440.820" timestamp="1629902796030" />
-    <state width="1398" height="149" key="GridCell.Tab.0.bottom" timestamp="1636904057123">
+    <state width="1398" height="234" key="GridCell.Tab.0.bottom" timestamp="1637162137040">
       <screen x="0" y="25" width="1440" height="820" />
     </state>
-    <state width="1398" height="149" key="GridCell.Tab.0.bottom/0.25.1440.820@0.25.1440.820" timestamp="1636904057123" />
-    <state width="1398" height="149" key="GridCell.Tab.0.center" timestamp="1636904057122">
+    <state width="1398" height="234" key="GridCell.Tab.0.bottom/0.25.1440.820@0.25.1440.820" timestamp="1637162137040" />
+    <state width="1398" height="234" key="GridCell.Tab.0.center" timestamp="1637162137039">
       <screen x="0" y="25" width="1440" height="820" />
     </state>
-    <state width="1398" height="149" key="GridCell.Tab.0.center/0.25.1440.820@0.25.1440.820" timestamp="1636904057122" />
-    <state width="1398" height="149" key="GridCell.Tab.0.left" timestamp="1636904057122">
+    <state width="1398" height="234" key="GridCell.Tab.0.center/0.25.1440.820@0.25.1440.820" timestamp="1637162137039" />
+    <state width="1398" height="234" key="GridCell.Tab.0.left" timestamp="1637162137039">
       <screen x="0" y="25" width="1440" height="820" />
     </state>
-    <state width="1398" height="149" key="GridCell.Tab.0.left/0.25.1440.820@0.25.1440.820" timestamp="1636904057122" />
-    <state width="1398" height="149" key="GridCell.Tab.0.right" timestamp="1636904057123">
+    <state width="1398" height="234" key="GridCell.Tab.0.left/0.25.1440.820@0.25.1440.820" timestamp="1637162137039" />
+    <state width="1398" height="234" key="GridCell.Tab.0.right" timestamp="1637162137039">
       <screen x="0" y="25" width="1440" height="820" />
     </state>
-    <state width="1398" height="149" key="GridCell.Tab.0.right/0.25.1440.820@0.25.1440.820" timestamp="1636904057123" />
+    <state width="1398" height="234" key="GridCell.Tab.0.right/0.25.1440.820@0.25.1440.820" timestamp="1637162137039" />
+    <state width="1398" height="260" key="GridCell.Tab.1.bottom" timestamp="1637117317074">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state width="1398" height="260" key="GridCell.Tab.1.bottom/0.25.1440.820@0.25.1440.820" timestamp="1637117317074" />
+    <state width="1398" height="260" key="GridCell.Tab.1.center" timestamp="1637117317073">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state width="1398" height="260" key="GridCell.Tab.1.center/0.25.1440.820@0.25.1440.820" timestamp="1637117317073" />
+    <state width="1398" height="260" key="GridCell.Tab.1.left" timestamp="1637117317072">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state width="1398" height="260" key="GridCell.Tab.1.left/0.25.1440.820@0.25.1440.820" timestamp="1637117317072" />
+    <state width="1398" height="260" key="GridCell.Tab.1.right" timestamp="1637117317073">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state width="1398" height="260" key="GridCell.Tab.1.right/0.25.1440.820@0.25.1440.820" timestamp="1637117317073" />
     <state x="385" y="169" width="670" height="58" key="search.everywhere.popup" timestamp="1631339891508">
       <screen x="0" y="25" width="1440" height="820" />
     </state>
     <state x="385" y="169" width="670" height="58" key="search.everywhere.popup/0.25.1440.820@0.25.1440.820" timestamp="1631339891508" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>39</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>53</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>62</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>97</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>106</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>114</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>125</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>134</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>143</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>70</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>75</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handlers/pageAction/submitRegisterNFC.go</url>
+          <line>74</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

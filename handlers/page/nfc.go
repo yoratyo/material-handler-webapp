@@ -1,12 +1,14 @@
 package page
 
 import (
+	"fmt"
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
 	transactionNFCDTO "github.com/yoratyo/material-handler-webapp/model/dto/transactionNFC"
 	userDTO "github.com/yoratyo/material-handler-webapp/model/dto/userLogin"
 	"github.com/yoratyo/material-handler-webapp/shared"
 	"net/http"
+	"strconv"
 )
 
 func (h handler) NFC(c *gin.Context) {
@@ -21,8 +23,9 @@ func (h handler) NFC(c *gin.Context) {
 	}
 
 	var (
-		activeOKP string = "0"
-		err error
+		activeOKP                          string = "0"
+		err                                error
+		milisNotifSuccess, milisNotifError int64 = 0, 0
 	)
 
 	response := gin.H{
@@ -81,12 +84,41 @@ func (h handler) NFC(c *gin.Context) {
 
 	errMessage, err := c.Cookie("error")
 	if err == nil {
-		response["errMessage"] = errMessage
+		timeError, err := c.Cookie("errorTime")
+		if err == nil {
+			milisNotifError, err = strconv.ParseInt(timeError, 10, 64)
+			if err != nil {
+				fmt.Println("Failed convert Error notif time")
+			}
+			shared.RemoveErrorCookie(c)
+		}
 	}
 
 	successMessage, err := c.Cookie("success")
 	if err == nil {
-		response["successMessage"] = successMessage
+		timeSuccess, err := c.Cookie("successTime")
+		if err == nil {
+			milisNotifSuccess, err = strconv.ParseInt(timeSuccess, 10, 64)
+			if err != nil {
+				fmt.Println("Failed convert Success notif time")
+			}
+			shared.RemoveSuccessCookie(c)
+		}
+	}
+
+	if milisNotifSuccess != 0 && milisNotifError != 0 {
+		if milisNotifSuccess > milisNotifError {
+			response["successMessage"] = successMessage
+		} else {
+			response["errMessage"] = errMessage
+		}
+	} else {
+		if milisNotifSuccess != 0 {
+			response["successMessage"] = successMessage
+		}
+		if milisNotifError != 0 {
+			response["errMessage"] = errMessage
+		}
 	}
 
 	c.HTML(http.StatusOK, "nfc.html", response)

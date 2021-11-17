@@ -16,12 +16,15 @@ func (s *service) SetTickerMonitoringNFC(ctx *gin.Context, conn *websocket.Conn)
 		nfc dao.MonitoringNFC
 		err error
 	)
+
+	ticker := time.NewTicker(2 * time.Second)
+	defer func() {
+		ticker.Stop()
+		conn.Close()
+	}()
 	// we want to kick off a for loop that runs for the
 	// duration of our websockets connection
 	for {
-		// we create a new ticker that ticks every 5 seconds
-		ticker := time.NewTicker(3 * time.Second)
-
 		// every time our ticker ticks
 		for t := range ticker.C {
 			// print out that we are updating the stats

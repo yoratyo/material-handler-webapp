@@ -29,7 +29,7 @@ func NewHandler(domain domain.Domain, resource shared.Resource) (Handler, error)
 }
 
 func addError(c *gin.Context, msg string, path string) {
-	c.SetCookie("error", msg, 10, "/", c.Request.URL.Hostname(), false, true)
+	shared.SetErrorCookie(c, msg)
 	location := url.URL{Path: path}
 	c.Redirect(http.StatusFound, location.RequestURI())
 }

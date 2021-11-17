@@ -43,12 +43,20 @@ func (h handler) SubmitRegisterNFC(c *gin.Context) {
 		addError(c, err.Error(), path)
 		return
 	}
+	// Set OKP number to null if 0 (not selected)
+	if req.BatchNo != nil {
+		if *req.BatchNo == "0" {
+			req.BatchNo = nil
+		}
+	}
 
 	// Directly to page NFC, just filter by OKP number
 	if req.BatchNo != nil && req.SupplierLotNo == nil {
-		location := url.URL{Path: fmt.Sprintf("%s?batchNo=%s ", path, *req.BatchNo)}
-		c.Redirect(http.StatusFound, location.RequestURI())
+		urlPath := fmt.Sprintf("%s?batchNo=%s", path, *req.BatchNo)
+		c.Redirect(http.StatusFound, urlPath)
 		c.Abort()
+
+		return
 	}
 
 	// Check get by supplier lot number
@@ -62,11 +70,13 @@ func (h handler) SubmitRegisterNFC(c *gin.Context) {
 
 		if len(items) != 1 {
 			if len(items) > 1 {
-				c.SetCookie("success", fmt.Sprintf("There are %d OKP with this supplier lot, please choose", len(items)), 10, "/", c.Request.URL.Hostname(), false, true)
+				shared.SetSuccessCookie(c, fmt.Sprintf("There are %d OKP with this supplier lot, please choose", len(items)))
 			}
-			location := url.URL{Path: fmt.Sprintf("%s?supplierLotNo=%s ", path, *req.SupplierLotNo)}
-			c.Redirect(http.StatusFound, location.RequestURI())
+			urlPath := fmt.Sprintf("%s?supplierLotNo=%s", path, *req.SupplierLotNo)
+			c.Redirect(http.StatusFound, urlPath)
 			c.Abort()
+
+			return
 		}
 	}
 
@@ -138,7 +148,7 @@ func (h handler) SubmitRegisterNFC(c *gin.Context) {
 		return
 	}
 
-	c.SetCookie("success", "Success to register NFC", 10, "/", c.Request.URL.Hostname(), false, true)
+	shared.SetSuccessCookie(c, "Success to register NFC")
 	location := url.URL{Path: path}
 	c.Redirect(http.StatusFound, location.RequestURI())
 	c.Abort()

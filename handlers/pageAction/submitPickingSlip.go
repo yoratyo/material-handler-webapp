@@ -105,7 +105,7 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 		return
 	}
 
-	c.SetCookie("success", "Success to submit picking slip", 10, "/", c.Request.URL.Hostname(), false, true)
+	shared.SetSuccessCookie(c, "Success to submit picking slip")
 	location := url.URL{Path: path}
 	c.Redirect(http.StatusFound, location.RequestURI())
 	c.Abort()

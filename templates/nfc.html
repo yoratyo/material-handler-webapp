@@ -17,6 +17,8 @@
     <!-- Page plugins -->
     <!-- Argon CSS -->
     <link rel="stylesheet" href="css/argon.css?v=1.2.0" type="text/css">
+    <!-- Noty CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -70,12 +72,12 @@
                                     </div>
                                 </div>
                                 <p>
-                                <form role="form" name="nfcForm">
+                                <form role="form" name="nfcForm" method="POST" action="/action/transaction-NFC/submit">
                                     <div class="form-group mb-3">
                                         <div class="col-lg-6">
                                             <label class="form-control-label" for="input-username">OKP Number</label>
                                             <select class="form-control" name="batchNo" id="okpNum">
-                                                <option value="0">Select OKP Number</option>
+                                                <option value="0">All OKP Number</option>
                                                 {{ range .listBatchNo }}
                                                     <option value="{{ . }}">{{ . }}</option>
                                                 {{ end }}
@@ -89,7 +91,7 @@
                                                 </div>
                                                 <input class="form-control" placeholder="Scan Barcode Here.."
                                                        type="text"
-                                                       name="barcode">
+                                                       name="supplierLotNo">
                                             </div>
                                         </div>
                                     </div>
@@ -122,7 +124,6 @@
                                         <th scope="col">Pick Slip No</th>
                                         <th scope="col">OKP No</th>
                                         <th scope="col">Item</th>
-                                        <th scope="col">Weight Pack</th>
                                         <th scope="col">Bag Number</th>
                                         <th scope="col">Submit</th>
                                     </tr>
@@ -148,17 +149,18 @@
                                                     </div>
                                                 </div>
                                             </th>
-                                            <td id="{{ .WeightPack }}">
-                                                {{ .WeightPack }} ?
-                                            </td>
                                             <td id="{{ .TotalBag }}">
                                                 {{ .BagNo }} of {{ .TotalBag }}
                                             </td>
                                             <td>
-                                                <button class="btn btn-icon btn-success" type="button"
-                                                        data-toggle="modal" data-target="#exampleModal">
-                                                    <span class="btn-inner--icon"><i class="ni ni-send"></i></span>
-                                                </button>
+                                                <form role="form" name="nfcForm" method="POST"
+                                                      action="/action/transaction-NFC/submit">
+                                                    <input type="hidden" value="{{ .ID }}" name="idTransaction">
+                                                    <button class="btn btn-icon btn-primary" type="button"
+                                                            onclick="this.disabled=true;this.className='btn btn-icon btn-success'; this.form.submit();">
+                                                        <span class="btn-inner--icon"><i class="ni ni-send"></i></span>
+                                                    </button>
+                                                </form>
                                             </td>
                                         </tr>
                                     {{ end }}
@@ -201,6 +203,20 @@
         </footer>
     </div>
 </div>
+
+<!-- Core -->
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/js-cookie/js.cookie.js"></script>
+<script src="vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+<script src="vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
+<!-- Optional JS -->
+<script src="vendor/chart.js/dist/Chart.min.js"></script>
+<script src="vendor/chart.js/dist/Chart.extension.js"></script>
+<!-- Argon JS -->
+<script src="js/argon.js?v=1.2.0"></script>
+<!-- Noty JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js" type="text/javascript"></script>
 <script>
     // Websocket connection for NFC status
     const websocket = new WebSocket("ws://".concat(window.location.host, "/ws/statusNFC"));
@@ -261,17 +277,6 @@
         setOKP();
     }
 </script>
-<!-- Core -->
-<script src="vendor/jquery/dist/jquery.min.js"></script>
-<script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="vendor/js-cookie/js.cookie.js"></script>
-<script src="vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
-<script src="vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
-<!-- Optional JS -->
-<script src="vendor/chart.js/dist/Chart.min.js"></script>
-<script src="vendor/chart.js/dist/Chart.extension.js"></script>
-<!-- Argon JS -->
-<script src="js/argon.js?v=1.2.0"></script>
 </body>
 
 </html>

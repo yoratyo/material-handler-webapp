@@ -68,7 +68,7 @@
                                         <div class="col-lg-6">
                                             <label class="form-control-label" for="input-username">OKP Number</label>
                                             <select class="form-control" name="batchNo" id="okpNum">
-                                                <option value="0">Select OKP Number</option>
+                                                <option value="0">All OKP Number</option>
                                                 {{ range .listBatchNo }}
                                                     <option value="{{ . }}">{{ . }}</option>
                                                 {{ end }}
@@ -115,7 +115,9 @@
                                         <th scope="col">Pick Slip No</th>
                                         <th scope="col">OKP No</th>
                                         <th scope="col">Item</th>
+                                        <th scope="col">Lot Number</th>
                                         <th scope="col">Locator</th>
+                                        <th scope="col">Actual Qty</th>
                                         <th scope="col">Total Bag</th>
                                     </tr>
                                     </thead>
@@ -140,8 +142,14 @@
                                                     </div>
                                                 </div>
                                             </th>
+                                            <td id="{{ .LotNo }}">
+                                                {{ .LotNo }}
+                                            </td>
                                             <td id="{{ .StockLocator }}">
                                                 {{ .StockLocator }}
+                                            </td>
+                                            <td>
+                                                <span id="{{ .ActualQty }}">{{ .ActualQty }}</span> <span id="{{ .PrimaryUomCode }}">{{ .PrimaryUomCode }}</span>
                                             </td>
                                             <td id="{{ .TotalBag }}">
                                                 {{ .TotalBag }}
@@ -182,11 +190,25 @@
                                                                     <label class="form-control-label" for="input-city">Item</label>
                                                                     <div class="media align-items-center">
                                                                         <div class="media-body">
-                                                                            <span class="name mb-0 text-sm"
+                                                                            <span class="name mb-0 text-md"
                                                                                   id="itemCode"></span>
-                                                                            <p id="itemDesc"></p>
                                                                         </div>
                                                                     </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="form-group">
+                                                                    <label class="form-control-label"
+                                                                           for="input-country">Actual Qty</label>
+                                                                    <p id="actqty"></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-8">
+                                                                <div class="form-group">
+                                                                    <label class="form-control-label" for="input-city">LotNumber</label>
+                                                                    <p id="lotnumber"></p>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -315,20 +337,24 @@
             const createClickHandler = function (row) {
                 return function () {
                     const id = row.getElementsByTagName("td")[0].id;
-                    const bag = row.getElementsByTagName("td")[3].id;
+                    const bag = row.getElementsByTagName("td")[5].id;
                     const pickslipfield = row.getElementsByTagName("span")[0].id;
                     const okpnum = row.getElementsByTagName("td")[1].id;
-                    const loc = row.getElementsByTagName("td")[2].id;
+                    const loc = row.getElementsByTagName("td")[3].id;
                     const icode = row.getElementsByTagName("span")[3].id;
                     const idesc = row.getElementsByTagName("p")[0].id;
+                    const actqty = row.getElementsByTagName("span")[4].id;
+                    const uomcode = row.getElementsByTagName("span")[5].id;
+                    const lotnum = row.getElementsByTagName("td")[2].id;
 
                     document.getElementById("idPickingSlipField").value = id;
                     document.getElementById("pickSlipNo").innerHTML = pickslipfield;
                     document.getElementById("opkNumber").innerHTML = okpnum;
                     document.getElementById("locator").innerHTML = loc;
-                    document.getElementById("itemCode").innerHTML = icode;
-                    document.getElementById("itemDesc").innerHTML = idesc;
+                    document.getElementById("itemCode").innerHTML = '('+icode+') '+idesc;
+                    document.getElementById("actqty").innerHTML = actqty+' '+uomcode;
                     document.getElementById("actualBagField").value = bag;
+                    document.getElementById("lotnumber").innerHTML = lotnum;
                 };
             };
             currentRow.onclick = createClickHandler(currentRow);
