@@ -157,17 +157,17 @@
         document.getElementById("total-registered").innerHTML = monitoring.header.totalRegistered
 
         // initialize array
-        var arrDetail = [];
+        let arrDetail = [];
 
         const lOKP = monitoring.listOkp
         // loop list OKP
-        for (var i = 0; i < lOKP.length; i++) {
+        for (let i = 0; i < lOKP.length; i++) {
             let item = '<tr><td><span class="badge badge-dot mr-4"><i class="bg-warning"></i><span class="status">'+lOKP[i].batchNo+'</span></span></td><td>'+lOKP[i].formulaDescription+'</td><td><span class="h2 font-weight-bold mb-0">'+lOKP[i].totalChecked+'</span></td><td><span class="h2 font-weight-bold mb-0">'+lOKP[i].totalRegistered+'</span></td></tr>'
             console.log(lOKP[i].batchNo);
             arrDetail.push(item);
         }
 
-        document.getElementById("listTable").innerHTML = arrDetail.join()
+        document.getElementById("listTable").innerHTML = arrDetail.join('')
 
     };
 </script>

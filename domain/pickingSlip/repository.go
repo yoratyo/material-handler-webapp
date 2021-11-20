@@ -12,4 +12,5 @@ type Repository interface {
 	GetDistinctPendingOKP(ctx *gin.Context) ([]string, error)
 	PatchByID(ctx *gin.Context, ID uint64, data map[string]interface{}) error
 	GetByID(ctx *gin.Context, ID uint64) (dao.MasterPickingSlip, error)
+	GetPickingMonitoringToday(ctx *gin.Context) (dao.PickingMonitoring, error)
 }

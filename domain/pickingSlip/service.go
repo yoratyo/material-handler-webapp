@@ -11,4 +11,5 @@ type Service interface {
 	GetDistinctPendingOKP(ctx *gin.Context) ([]string, error)
 	PatchCompletePick(ctx *gin.Context, ID uint64, data pickingSlipDTO.PatchCompletePickRequestDTO) error
 	GetByID(ctx *gin.Context, ID uint64) (dao.MasterPickingSlip, error)
+	GetTodayPickingMonitoring(ctx *gin.Context) (dao.PickingMonitoring, error)
 }

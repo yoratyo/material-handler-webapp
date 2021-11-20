@@ -18,7 +18,7 @@ func (s *service) GetMonitoringGateway(ctx *gin.Context, conn *websocket.Conn) e
 		err       error
 	)
 
-	ticker := time.NewTicker(3 * time.Second)
+	ticker := time.NewTicker(2 * time.Second)
 	defer func() {
 		ticker.Stop()
 		conn.Close()

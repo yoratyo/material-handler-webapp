@@ -22,4 +22,5 @@ type Repository interface {
 	PatchGatewayCheck(ctx *gin.Context, Ids []string, data map[string]interface{}) (int64, error)
 	GetCountGatewayToday(ctx *gin.Context) (dao.CountGatewayTransactionNFC, error)
 	GetCountGatewayTodayPerOKP(ctx *gin.Context) ([]dao.CountGatewayPerOKP, error)
+	GetRegisterMonitoringToday(ctx *gin.Context) (dao.RegisterNFCMonitoring, error)
 }

@@ -6,6 +6,7 @@ import (
 	userDTO "github.com/yoratyo/material-handler-webapp/model/dto/userLogin"
 	"github.com/yoratyo/material-handler-webapp/shared"
 	"net/http"
+	"time"
 )
 
 func (h handler) Home(c *gin.Context) {
@@ -28,8 +29,39 @@ func (h handler) Home(c *gin.Context) {
 		return
 	}
 
-	c.HTML(http.StatusOK, "index.html", gin.H{
+	response := gin.H{
 		"isHomeMenu": true,
 		"username":   user.Username,
-	})
+	}
+
+	// get monitoring picking slip
+	picking, err := h.domain.PickingSlip.GetTodayPickingMonitoring(c)
+	if err != nil {
+		response["errMessage"] = "Failed get monitoring picking"
+		return
+	}
+
+	// get monitoring register NFC
+	register, err := h.domain.TransactionNFC.GetTodayRegisterMonitoring(c)
+	if err != nil {
+		response["errMessage"] = "Failed get monitoring register"
+		return
+	}
+
+	// get monitoring Gateway
+	gateway, err := h.domain.TransactionNFC.GetTodayGatewayMonitoring(c)
+	if err != nil {
+		response["errMessage"] = "Failed get monitoring gateway"
+		return
+	}
+
+	currentTime := time.Now()
+	today := currentTime.Format("Monday, 02 January 2006")
+
+	response["today"] = today
+	response["picking"] = picking
+	response["register"] = register
+	response["gateway"] = gateway
+
+	c.HTML(http.StatusOK, "index.html", response)
 }

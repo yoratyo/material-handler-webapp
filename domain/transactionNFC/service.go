@@ -19,4 +19,6 @@ type Service interface {
 	PatchCompleteRegister(ctx *gin.Context, ID uint64, data transactionNFCDTO.PatchRegisterNFCRequestDTO) error
 	BulkPatchGatewayCheck(ctx *gin.Context, request transactionNFCDTO.PatchGatewayCheckRequestDTO) error
 	GetMonitoringGateway(ctx *gin.Context, conn *websocket.Conn) error
+	GetTodayRegisterMonitoring(ctx *gin.Context) (dao.RegisterNFCMonitoring, error)
+	GetTodayGatewayMonitoring(ctx *gin.Context) (dao.GatewayMonitoring, error)
 }
