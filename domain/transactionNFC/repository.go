@@ -19,4 +19,5 @@ type Repository interface {
 	GetRegisterNFC(ctx *gin.Context, request transactionNFCDTO.PatchRegisterNFCRequestDTO) (dao.TransactionNFC, error)
 	GetByNFCTagNo(ctx *gin.Context, nfcTagNo string) ([]dao.TransactionNFC, error)
 	PatchByID(ctx *gin.Context, ID uint64, data map[string]interface{}) error
+	PatchGatewayCheck(ctx *gin.Context, Ids []string, data map[string]interface{}) (int64, error)
 }

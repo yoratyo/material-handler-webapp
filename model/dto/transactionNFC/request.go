@@ -12,4 +12,20 @@ type (
 		OperatorRegister string
 		DataNFC          string
 	}
+	PatchGatewayCheckRequestDTO struct {
+		Items []DetailPatchGatewayCheck `json:"items" binding="required"`
+	}
+	DetailPatchGatewayCheck struct {
+		TagNFC string `json:"nfc_id" binding="required"`
+	}
 )
+
+func (g PatchGatewayCheckRequestDTO) ToUpdateGatewayCheck() []string {
+	var ids []string
+
+	for _, i := range g.Items {
+		ids = append(ids, i.TagNFC)
+	}
+
+	return ids
+}
