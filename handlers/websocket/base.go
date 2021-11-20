@@ -9,6 +9,7 @@ import (
 type (
 	Handler interface {
 		StatusNFC(ctx *gin.Context)
+		GatewayMonitoring(c *gin.Context)
 	}
 	handler struct {
 		domain   domain.Domain

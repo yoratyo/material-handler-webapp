@@ -28,7 +28,7 @@ func (s *service) SetTickerMonitoringNFC(ctx *gin.Context, conn *websocket.Conn)
 		// every time our ticker ticks
 		for t := range ticker.C {
 			// print out that we are updating the stats
-			fmt.Printf("Updating Websocket connection %s: %+v\n", ctx.ClientIP(), t)
+			fmt.Printf("[NFC status] Updating Websocket connection %s: %+v\n", ctx.ClientIP(), t)
 
 			nfc, err = s.repository.GetMonitoringNFCByIP(ctx, ctx.ClientIP())
 			if err != nil {

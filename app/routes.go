@@ -44,6 +44,7 @@ func NewRouter(a *App) *gin.Engine {
 	// Websocket action routes
 	websocket := router.Group("/ws")
 	websocket.GET("/statusNFC", a.Handler.WebSocket.StatusNFC)
+	websocket.GET("/monitoring-gateway-nfc", a.Handler.WebSocket.GatewayMonitoring)
 
 	// API action routes
 	api := router.Group("/api")

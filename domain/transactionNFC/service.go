@@ -18,4 +18,5 @@ type Service interface {
 	GetMonitoringNFC(ctx *gin.Context) (dao.MonitoringNFC, error)
 	PatchCompleteRegister(ctx *gin.Context, ID uint64, data transactionNFCDTO.PatchRegisterNFCRequestDTO) error
 	BulkPatchGatewayCheck(ctx *gin.Context, request transactionNFCDTO.PatchGatewayCheckRequestDTO) error
+	GetMonitoringGateway(ctx *gin.Context, conn *websocket.Conn) error
 }

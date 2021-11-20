@@ -28,6 +28,16 @@ type (
 		IsCompleteBag       bool       `json:"isCompleteBag" gorm:"not null"`
 		IsSplitMaterial     bool       `json:"isSplitMaterial" gorm:"not null"`
 	}
+	CountGatewayTransactionNFC struct {
+		TotalChecked    uint64 `json:"totalChecked"`
+		TotalRegistered uint64 `json:"totalRegistered"`
+	}
+	CountGatewayPerOKP struct {
+		BatchNo            string `json:"batchNo"`
+		FormulaDescription string `json:"formulaDescription"`
+		TotalChecked       uint64 `json:"totalChecked"`
+		TotalRegistered    uint64 `json:"totalRegistered"`
+	}
 )
 
 func (TransactionNFC) TableName() string {
