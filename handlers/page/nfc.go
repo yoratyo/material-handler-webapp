@@ -39,6 +39,15 @@ func (h handler) NFC(c *gin.Context) {
 		return
 	}
 
+	// Validate user access
+	if user.UserLevel == "OPERATOR" {
+		if !user.RegisterNFCMenu {
+			shared.SetErrorCookie(c, "You don't have access to Register NFC")
+			c.Redirect(http.StatusFound, "/page/home")
+			c.Abort()
+		}
+	}
+
 	// get form request param
 	var params transactionNFCDTO.GetRegisterNFCRequestDTO
 	err = c.Bind(&params)

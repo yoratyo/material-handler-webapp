@@ -39,6 +39,15 @@ func (h handler) Picking(c *gin.Context) {
 		return
 	}
 
+	// Validate user access
+	if user.UserLevel == "OPERATOR" {
+		if !user.PickingMenu {
+			shared.SetErrorCookie(c, "You don't have access to Picking Material")
+			c.Redirect(http.StatusFound, "/page/home")
+			c.Abort()
+		}
+	}
+
 	// get form request param
 	var params pickingSlipDTO.GetPendingPickingRequestDTO
 	err = c.Bind(&params)

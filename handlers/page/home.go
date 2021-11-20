@@ -63,5 +63,11 @@ func (h handler) Home(c *gin.Context) {
 	response["register"] = register
 	response["gateway"] = gateway
 
+	errMessage, err := c.Cookie("error")
+	if err == nil {
+		response["errMessage"] = errMessage
+		shared.RemoveErrorCookie(c)
+	}
+
 	c.HTML(http.StatusOK, "index.html", response)
 }

@@ -17,6 +17,8 @@
     <!-- Page plugins -->
     <!-- Argon CSS -->
     <link rel="stylesheet" href="css/argon.css?v=1.2.0" type="text/css">
+    <!-- Noty CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -67,7 +69,8 @@
                                     </div>
                                 </div>
                                 <p class="mt-3 mb-0 text-sm">
-                                    <span class="text-success mr-2"><i class="ni ni-ungroup"></i> <b>{{ .picking.Percentage }}%</b></span>
+                                    <span class="text-success mr-2"><i
+                                                class="ni ni-ungroup"></i> <b>{{ .picking.Percentage }}%</b></span>
                                     <span class="text-nowrap">Progress percentage</span>
                                 </p>
                             </div>
@@ -90,7 +93,8 @@
                                     </div>
                                 </div>
                                 <p class="mt-3 mb-0 text-sm">
-                                    <span class="text-success mr-2"><i class="ni ni-ungroup"></i> <b>{{ .register.Percentage }}%</b></span>
+                                    <span class="text-success mr-2"><i
+                                                class="ni ni-ungroup"></i> <b>{{ .register.Percentage }}%</b></span>
                                     <span class="text-nowrap">Progress percentage</span>
                                 </p>
                             </div>
@@ -113,7 +117,8 @@
                                     </div>
                                 </div>
                                 <p class="mt-3 mb-0 text-sm">
-                                    <span class="text-success mr-2"><i class="ni ni-ungroup"></i> <b>{{ .gateway.Percentage }}%</b></span>
+                                    <span class="text-success mr-2"><i
+                                                class="ni ni-ungroup"></i> <b>{{ .gateway.Percentage }}%</b></span>
                                     <span class="text-nowrap">Progress percentage</span>
                                 </p>
                             </div>
@@ -139,6 +144,28 @@
 <script src="vendor/chart.js/dist/Chart.extension.js"></script>
 <!-- Argon JS -->
 <script src="js/argon.js?v=1.2.0"></script>
+<!-- Noty JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js" type="text/javascript"></script>
+<!-- Custom Scripts -->
+<script>
+    function showMessage(msg, type) {
+        new Noty({
+            theme: 'bootstrap-v4',
+            text: msg,
+            type: type,
+            layout: 'bottomCenter',
+            timeout: 3000,
+        }).show();
+    }
+
+    {{ if .errMessage }}
+    showMessage('{{ .errMessage }}', 'error');
+    {{ end }}
+
+    {{ if .successMessage }}
+    showMessage('{{ .successMessage }}', 'success');
+    {{ end }}
+</script>
 </body>
 
 </html>
