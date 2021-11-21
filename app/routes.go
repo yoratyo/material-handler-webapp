@@ -10,6 +10,12 @@ import (
 func NewRouter(a *App) *gin.Engine {
 	router := a.Engine
 
+	t, err := loadTemplate()
+	if err != nil {
+		panic(err)
+	}
+	router.SetHTMLTemplate(t)
+
 	router.Use(sessions.Sessions("mysession", sessions.NewCookieStore([]byte("secret"))))
 
 	// Test routes

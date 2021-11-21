@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
+    <meta name="author" content="Creative Tim">
+    <title>Kalbe Nutritionals - NFC project web app</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/brand/kalbe-icon.png" type="image/png">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <!-- Icons -->
+    <link rel="stylesheet" href="vendor/nucleo/css/nucleo.css" type="text/css">
+    <link rel="stylesheet" href="vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
+    <!-- Page plugins -->
+    <!-- Argon CSS -->
+    <link rel="stylesheet" href="css/argon.css?v=1.2.0" type="text/css">
+    <!-- Noty CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Sidenav -->
+{{ template "sidebar.html" .}}
+
+<!-- Main content -->
+<div class="main-content" id="panel">
+    <!-- Topnav -->
+    {{ template "topbar.html" .}}
+    <!-- Header -->
+    <!-- Header -->
+    <div class="header bg-gradient-green pb-6">
+        <div class="container-fluid">
+            <div class="header-body">
+                <div class="row align-items-center py-2">
+                    <div class="col-lg-6 col-7">
+                        <h6 class="h2 text-white d-inline-block mb-0">Home</h6>
+                        <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+                            <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                                <li class="breadcrumb-item"><a href="/page/home"><i class="fas fa-home"></i></a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-7">
+                        <h6 class="h3 text-white d-inline-block mb-0">Welcome! today is {{ .today }}</h6>
+                    </div>
+                    <hr>
+                </div>
+                <!-- Card stats -->
+                <div class="row">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card card-stats">
+                            <!-- Card body -->
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h5 class="card-title text-uppercase text-muted mb-0">Picking Area</h5>
+                                        <span class="h2 font-weight-bold mb-0">{{ .picking.ProgressCount }}</span> of
+                                        <span class="h2 font-weight-bold mb-0">{{ .picking.TotalCount }}</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
+                                            <i class="ni ni-ambulance"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="mt-3 mb-0 text-sm">
+                                    <span class="text-success mr-2"><i
+                                                class="ni ni-ungroup"></i> <b>{{ .picking.Percentage }}%</b></span>
+                                    <span class="text-nowrap">Progress percentage</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card card-stats">
+                            <!-- Card body -->
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h5 class="card-title text-uppercase text-muted mb-0">NFC Registration</h5>
+                                        <span class="h2 font-weight-bold mb-0">{{ .register.ProgressCount }}</span> of
+                                        <span class="h2 font-weight-bold mb-0">{{ .register.TotalCount }}</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="icon icon-shape bg-gradient-blue text-white rounded-circle shadow">
+                                            <i class="ni ni-credit-card"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="mt-3 mb-0 text-sm">
+                                    <span class="text-success mr-2"><i
+                                                class="ni ni-ungroup"></i> <b>{{ .register.Percentage }}%</b></span>
+                                    <span class="text-nowrap">Progress percentage</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card card-stats">
+                            <!-- Card body -->
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h5 class="card-title text-uppercase text-muted mb-0">Gateway Area</h5>
+                                        <span class="h2 font-weight-bold mb-0">{{ .gateway.ProgressCount }}</span> of
+                                        <span class="h2 font-weight-bold mb-0">{{ .gateway.TotalCount }}</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
+                                            <i class="ni ni-tablet-button"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="mt-3 mb-0 text-sm">
+                                    <span class="text-success mr-2"><i
+                                                class="ni ni-ungroup"></i> <b>{{ .gateway.Percentage }}%</b></span>
+                                    <span class="text-nowrap">Progress percentage</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page content -->
+    <div class="container-fluid mt--6">
+        <!-- Footer -->
+        <footer class="footer py-8">
+            <div class="row align-items-center justify-content-lg-between">
+                <div class="col-lg-6">
+                    <div class="copyright text-center  text-lg-left  text-muted">
+                        &copy; 2021 <a href="https://jayatotalsolusindo.co.id/" class="font-weight-bold ml-1" target="_blank">JTS Team</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+                        <li class="nav-item">
+                            <a href="https://jayatotalsolusindo.co.id/" class="nav-link" target="_blank">Jaya Total Solusindo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://jayatotalsolusindo.co.id/tentang-kami" class="nav-link" target="_blank">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://jayatotalsolusindo.co.id/portofolio" class="nav-link" target="_blank">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://jayatotalsolusindo.co.id/kontak" class="nav-link" target="_blank">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<!-- Argon Scripts -->
+<!-- Core -->
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/js-cookie/js.cookie.js"></script>
+<script src="vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+<script src="vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
+<!-- Optional JS -->
+<script src="vendor/chart.js/dist/Chart.min.js"></script>
+<script src="vendor/chart.js/dist/Chart.extension.js"></script>
+<!-- Argon JS -->
+<script src="js/argon.js?v=1.2.0"></script>
+<!-- Noty JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js" type="text/javascript"></script>
+<!-- Custom Scripts -->
+<script>
+    function showMessage(msg, type) {
+        new Noty({
+            theme: 'bootstrap-v4',
+            text: msg,
+            type: type,
+            layout: 'bottomCenter',
+            timeout: 3000,
+        }).show();
+    }
+
+    {{ if .errMessage }}
+    showMessage('{{ .errMessage }}', 'error');
+    {{ end }}
+
+    {{ if .successMessage }}
+    showMessage('{{ .successMessage }}', 'success');
+    {{ end }}
+</script>
+</body>
+
+</html>
