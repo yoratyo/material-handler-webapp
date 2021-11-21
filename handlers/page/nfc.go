@@ -40,7 +40,7 @@ func (h handler) NFC(c *gin.Context) {
 	}
 
 	// Validate user access
-	if user.UserLevel == "OPERATOR" {
+	if user.UserLevel == shared.ROLE_LEVEL_OPERATOR {
 		if !user.RegisterNFCMenu {
 			shared.SetErrorCookie(c, "You don't have access to Register NFC")
 			c.Redirect(http.StatusFound, "/page/home")

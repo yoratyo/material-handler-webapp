@@ -15,25 +15,27 @@ func (h handler) DoLogin(c *gin.Context) {
 	var req userDTO.LoginRequestDTO
 	errs := c.ShouldBind(&req)
 	if errs != nil {
-		c.JSON(http.StatusBadRequest, userDTO.LoginResponseDTO{
-			Message: "Payload failed",
-		})
+		shared.SetErrorCookie(c, "username & password required")
+		c.Redirect(http.StatusFound, "/page/login")
+		c.Abort()
 		return
 	}
 
 	// auth login
 	res, err := h.domain.User.GetUserLogin(c, req)
 	if err != nil {
-		c.JSON(http.StatusNotFound, userDTO.LoginResponseDTO{
-			Message: "Failed Login",
-		})
+		shared.SetErrorCookie(c, "username & password not match")
+		c.Redirect(http.StatusFound, "/page/login")
+		c.Abort()
 		return
 	}
 
 	// Save the user data in the session
 	session.Set(shared.USERKEY, res.IDUser)
 	if err := session.Save(); err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to save session"})
+		shared.SetErrorCookie(c, "failed to save session user")
+		c.Redirect(http.StatusFound, "/page/login")
+		c.Abort()
 		return
 	}
 

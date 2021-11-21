@@ -40,7 +40,7 @@ func (h handler) Picking(c *gin.Context) {
 	}
 
 	// Validate user access
-	if user.UserLevel == "OPERATOR" {
+	if user.UserLevel == shared.ROLE_LEVEL_OPERATOR {
 		if !user.PickingMenu {
 			shared.SetErrorCookie(c, "You don't have access to Picking Material")
 			c.Redirect(http.StatusFound, "/page/home")

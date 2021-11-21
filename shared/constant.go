@@ -5,4 +5,5 @@ const (
 	MySQLTransaction                 = "Mysql-transaction"
 	NFC_STATUS_PENDING_REGISTER      = "pending-register"
 	NFC_STATUS_PENDING_GATEWAY_CHECK = "pending-gateway-check"
+	ROLE_LEVEL_OPERATOR              = "OPERATOR"
 )
