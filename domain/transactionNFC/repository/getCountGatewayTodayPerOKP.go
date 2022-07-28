@@ -17,7 +17,7 @@ func (r *repository) GetCountGatewayTodayPerOKP(ctx *gin.Context) ([]dao.CountGa
 	query := orm.
 		WithContext(ctx).
 		Model(&dao.TransactionNFC{}).
-		Joins("JOIN master_picking_slip ON master_picking_slip.id = transaction_nfc.id_master_picking_slip").
+		Joins("JOIN master_picking_slip ON master_picking_slip.id_transact = transaction_nfc.id_master_picking_slip").
 		Select("sum(case when transaction_nfc.is_gateway_check = true then 1 else 0 end) AS TotalChecked",
 			"count(*) AS TotalRegistered",
 			"master_picking_slip.batch_no AS BatchNo",

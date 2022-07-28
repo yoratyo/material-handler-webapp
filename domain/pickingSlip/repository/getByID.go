@@ -17,7 +17,7 @@ func (r *repository) GetByID(ctx *gin.Context, ID uint64) (dao.MasterPickingSlip
 	query := orm.
 		WithContext(ctx).
 		Model(&dao.MasterPickingSlip{}).
-		Where("id = ?", ID)
+		Where("id_transact = ?", ID)
 
 	if err := query.Take(&item).Error; err != nil {
 		return dao.MasterPickingSlip{}, err

@@ -17,7 +17,7 @@ func (r *repository) GetByID(ctx *gin.Context, ID uint64) (dao.TransactionNFC, e
 	query := orm.
 		WithContext(ctx).
 		Model(&dao.TransactionNFC{}).
-		Where("id = ?", ID)
+		Where("id_transact = ?", ID)
 
 	if err := query.Take(&item).Error; err != nil {
 		return dao.TransactionNFC{}, err

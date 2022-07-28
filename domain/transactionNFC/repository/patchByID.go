@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"errors"
 	"fmt"
+
 	"github.com/gin-gonic/gin"
 	"github.com/yoratyo/material-handler-webapp/model/dao"
 	"github.com/yoratyo/material-handler-webapp/shared"
@@ -17,14 +17,14 @@ func (r *repository) PatchByID(ctx *gin.Context, ID uint64, data map[string]inte
 	result := orm.
 		WithContext(ctx).
 		Model(&dao.TransactionNFC{}).
-		Where("id = ?", ID).
+		Where("id_transact = ?", ID).
 		Updates(data)
 	if result.Error != nil {
 		return err
 	}
 
 	if result.RowsAffected == 0 {
-		return errors.New(fmt.Sprintf("Transaction NFC %s not found", ID))
+		return fmt.Errorf("transaction nfc %d not found", ID)
 	}
 
 	return nil

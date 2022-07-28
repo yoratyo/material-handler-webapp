@@ -4,7 +4,7 @@ import "time"
 
 type (
 	TransactionNFC struct {
-		ID                  uint64     `json:"id" gorm:"primary_key"`
+		ID                  uint64     `json:"id" gorm:"primary_key;column:id_transact"`
 		IDMasterPickingSlip uint64     `json:"idMasterPickingSlip" gorm:"not null"`
 		PickSlipNo          string     `json:"pickSlipNo" gorm:"not null"`
 		BatchNo             string     `json:"batchNo" gorm:"not null"`

@@ -17,7 +17,7 @@ func (r *repository) GetCountGatewayToday(ctx *gin.Context) (dao.CountGatewayTra
 	query := orm.
 		WithContext(ctx).
 		Model(&dao.TransactionNFC{}).
-		Joins("JOIN master_picking_slip ON master_picking_slip.id = transaction_nfc.id_master_picking_slip").
+		Joins("JOIN master_picking_slip ON master_picking_slip.id_transact = transaction_nfc.id_master_picking_slip").
 		Select("sum(case when transaction_nfc.is_gateway_check = true then 1 else 0 end) AS TotalChecked", "count(*) AS TotalRegistered").
 		Where("transaction_nfc.is_register = ?", true).
 		Where("DATE(master_picking_slip.date_submit) = CURDATE()")

@@ -4,14 +4,13 @@ import "time"
 
 type (
 	MasterPickingSlip struct {
-		ID                 uint64     `json:"id" gorm:"primary_key"`
+		ID                 uint64     `json:"id" gorm:"primary_key;column:id_transact"`
 		PickSlipNo         string     `json:"pickSlipNo" gorm:"not null"`
 		BatchNo            string     `json:"batchNo" gorm:"not null"`
 		FormulaDescription string     `json:"formulaDescription" gorm:"not null"`
 		ItemCode           string     `json:"itemCode" gorm:"not null"`
 		ItemDescription    string     `json:"itemDescription" gorm:"not null"`
 		StockLocator       string     `json:"stockLocator" gorm:"not null"`
-		EokpQty            float64    `json:"eokpQty" gorm:"not null"`
 		ActualQty          *float64   `json:"actualQty" gorm:"null"`
 		PrimaryQty         float64    `json:"primaryQty" gorm:"not null"`
 		PrimaryUomCode     string     `json:"primaryUomCode" gorm:"not null"`
@@ -35,9 +34,11 @@ type (
 		WeightPack         *float64   `json:"weightPack" gorm:"null"`
 		TotalBag           uint64     `json:"totalBag" gorm:"not null"`
 		ActualBag          *uint64    `json:"actualBag" gorm:"null"`
+		IsActive           bool       `json:"isActive" gorm:"not null"`
 		IsReadyForPick     bool       `json:"isReadyForPick" gorm:"not null"`
 		IsCompletePick     bool       `json:"isCompletePick" gorm:"not null"`
 		IsManual           bool       `json:"isManual" gorm:"not null"`
+		IsEdit             bool       `json:"isEdit" gorm:"not null"`
 		IsCancel           bool       `json:"isCancel" gorm:"not null"`
 	}
 )
