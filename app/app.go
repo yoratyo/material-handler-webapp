@@ -17,19 +17,23 @@ import (
 	assetHTML "github.com/yoratyo/material-handler-webapp/templates"
 )
 
+const (
+	PRODUCTIONENV = "production"
+)
+
 type App struct {
 	Engine  *gin.Engine
 	Handler handlers.Handler
 }
 
 func (a *App) Start() error {
-	engine := NewRouter(a)
-
 	t, err := loadTemplate()
 	if err != nil {
 		panic(err)
 	}
-	engine.SetHTMLTemplate(t)
+	a.Engine.SetHTMLTemplate(t)
+
+	engine := NewRouter(a)
 
 	fsCSS := assetfs.AssetFS{Asset: assetCSS.Asset, AssetDir: assetCSS.AssetDir, AssetInfo: assetCSS.AssetInfo, Prefix: "assets/css", Fallback: "index.html"}
 	fsFonts := assetfs.AssetFS{Asset: assetFonts.Asset, AssetDir: assetFonts.AssetDir, AssetInfo: assetFonts.AssetInfo, Prefix: "assets/fonts", Fallback: "index.html"}
@@ -69,6 +73,10 @@ func loadTemplate() (*template.Template, error) {
 }
 
 func NewApp(handler handlers.Handler) *App {
+	if os.Getenv("ENV") == PRODUCTIONENV {
+		gin.SetMode(gin.ReleaseMode)
+	}
+
 	return &App{
 		Engine:  gin.Default(),
 		Handler: handler,
