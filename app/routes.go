@@ -1,10 +1,11 @@
 package app
 
 import (
+	"net/http"
+
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"github.com/yoratyo/material-handler-webapp/shared"
-	"net/http"
 )
 
 func NewRouter(a *App) *gin.Engine {
