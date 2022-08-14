@@ -20,11 +20,12 @@ func (r *repository) PatchByID(ctx *gin.Context, ID uint64, data map[string]inte
 		Where("id_transact = ?", ID).
 		Updates(data)
 	if result.Error != nil {
-		return err
+		return result.Error
 	}
 
 	if result.RowsAffected == 0 {
-		return fmt.Errorf("master picking slip %d not found", ID)
+		fmt.Printf("no updated rows for master picking slip %d \n", ID)
+		return nil
 	}
 
 	return nil

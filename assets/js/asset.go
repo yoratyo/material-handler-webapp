@@ -161,7 +161,7 @@ func assetsJsAssetGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1659495934, 0)}
+	info := bindataFileInfo{name: "assets/js/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1660451769, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

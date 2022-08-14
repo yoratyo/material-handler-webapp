@@ -24,7 +24,8 @@ func (r *repository) PatchByID(ctx *gin.Context, ID uint64, data map[string]inte
 	}
 
 	if result.RowsAffected == 0 {
-		return fmt.Errorf("transaction nfc %d not found", ID)
+		fmt.Printf("no updated rows for transaction nfc %d \n", ID)
+		return nil
 	}
 
 	return nil
