@@ -230,7 +230,7 @@
                                                                         </div>
                                                                         <input class="form-control"
                                                                                placeholder="total bag" type="number"
-                                                                               id="actualBagField" name="actualBag">
+                                                                               id="actualBagField" name="actualBag" {{ if eq .role "OPERATOR" }}readonly{{ end }}>
                                                                     </div>
                                                                 </div>
                                                             </div>

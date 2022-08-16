@@ -95,7 +95,7 @@ func assetsImgAssetGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/img/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1660451769, 0)}
+	info := bindataFileInfo{name: "assets/img/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1660653797, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

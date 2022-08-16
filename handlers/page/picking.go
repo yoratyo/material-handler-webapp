@@ -2,13 +2,14 @@ package page
 
 import (
 	"fmt"
+	"net/http"
+	"strconv"
+
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
 	pickingSlipDTO "github.com/yoratyo/material-handler-webapp/model/dto/pickingSlip"
 	userDTO "github.com/yoratyo/material-handler-webapp/model/dto/userLogin"
 	"github.com/yoratyo/material-handler-webapp/shared"
-	"net/http"
-	"strconv"
 )
 
 func (h handler) Picking(c *gin.Context) {
@@ -85,6 +86,7 @@ func (h handler) Picking(c *gin.Context) {
 	}
 
 	response["username"] = user.Username
+	response["role"] = user.UserLevel
 	response["items"] = items
 	response["okp"] = activeOKP
 	response["listBatchNo"] = listOKP
