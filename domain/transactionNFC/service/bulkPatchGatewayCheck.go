@@ -1,7 +1,6 @@
 package service
 
 import (
-	"fmt"
 	"github.com/gin-gonic/gin"
 	transactionNFCDTO "github.com/yoratyo/material-handler-webapp/model/dto/transactionNFC"
 	helper "github.com/yoratyo/material-handler-webapp/shared"
@@ -16,12 +15,12 @@ func (s *service) BulkPatchGatewayCheck(ctx *gin.Context, request transactionNFC
 		"time_gateway_check": currTime,
 	}
 
-	rowsAffected, err := s.repository.PatchGatewayCheck(ctx, request.ToUpdateGatewayCheck(), updates)
+	_, err := s.repository.PatchGatewayCheck(ctx, request.ToUpdateGatewayCheck(), updates)
 	if err != nil {
 		return err
 	}
 
-	fmt.Printf("%d Row affected", rowsAffected)
+	//log.Printf("%d Row affected\n", rowsAffected)
 
 	return nil
 }

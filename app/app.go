@@ -4,6 +4,7 @@ import (
 	"html/template"
 	"os"
 	"strings"
+	"time"
 
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	"github.com/gin-gonic/gin"
@@ -15,6 +16,8 @@ import (
 	assetVendor "github.com/yoratyo/material-handler-webapp/assets/vendor"
 	"github.com/yoratyo/material-handler-webapp/handlers"
 	assetHTML "github.com/yoratyo/material-handler-webapp/templates"
+
+	"github.com/jasonlvhit/gocron"
 )
 
 const (
@@ -48,6 +51,13 @@ func (a *App) Start() error {
 	engine.StaticFS("/page/js", &fsJS)
 	engine.StaticFS("/page/scss", &fsSCSS)
 	engine.StaticFS("/page/vendor", &fsVendor)
+
+	go func() {
+		gocron.Every(5).Seconds().Do(func() {
+			a.Handler.Api.SchedulerGatewayCheckNFC(time.Now())
+		})
+		<-gocron.Start()
+	}()
 
 	return engine.Run(":" + os.Getenv("APP_PORT"))
 }

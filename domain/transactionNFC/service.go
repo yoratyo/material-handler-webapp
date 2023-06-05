@@ -21,4 +21,6 @@ type Service interface {
 	GetMonitoringGateway(ctx *gin.Context, conn *websocket.Conn) error
 	GetTodayRegisterMonitoring(ctx *gin.Context) (dao.RegisterNFCMonitoring, error)
 	GetTodayGatewayMonitoring(ctx *gin.Context) (dao.GatewayMonitoring, error)
+	GetListUnreadNFC(ctx *gin.Context) ([]dao.NfcReader, error)
+	BulkPatchReadNFC(ctx *gin.Context, tags []string) error
 }

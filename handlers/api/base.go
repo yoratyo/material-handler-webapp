@@ -1,6 +1,8 @@
 package api
 
 import (
+	"time"
+
 	"github.com/gin-gonic/gin"
 	"github.com/yoratyo/material-handler-webapp/domain"
 	"github.com/yoratyo/material-handler-webapp/shared"
@@ -9,6 +11,7 @@ import (
 type (
 	Handler interface {
 		GatewayCheckNFC(c *gin.Context)
+		SchedulerGatewayCheckNFC(time time.Time)
 	}
 	handler struct {
 		domain   domain.Domain

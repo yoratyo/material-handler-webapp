@@ -3,10 +3,12 @@ package shared
 import (
 	"errors"
 	"fmt"
+	"log"
+	"os"
+
 	"github.com/gin-gonic/gin"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"os"
 )
 
 func NewDB() (*gorm.DB, error) {
@@ -16,10 +18,12 @@ func NewDB() (*gorm.DB, error) {
 		os.Getenv("DB_HOST"),
 		os.Getenv("DB_PORT"),
 		os.Getenv("DB_NAME"))
+	log.Println("Trying to connect DB..")
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{
 		//Logger: logger.Default.LogMode(logger.Info),
 	})
 
+	log.Println("Connected to DB.")
 	return db, err
 }
 
