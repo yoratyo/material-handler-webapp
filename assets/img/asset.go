@@ -95,7 +95,7 @@ func assetsImgAssetGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/img/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1660653797, 0)}
+	info := bindataFileInfo{name: "assets/img/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1699544801, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -115,7 +115,7 @@ func assetsImgBrandKalbeIconPng() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/img/brand/kalbe-icon.png", size: 23883, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/img/brand/kalbe-icon.png", size: 23883, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -135,7 +135,7 @@ func assetsImgBrandKalbe1Png() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/img/brand/kalbe1.png", size: 44662, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/img/brand/kalbe1.png", size: 44662, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

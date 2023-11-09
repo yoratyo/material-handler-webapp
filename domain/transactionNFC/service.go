@@ -13,6 +13,7 @@ type Service interface {
 	GetListRegisterNFC(ctx *gin.Context, req transactionNFCDTO.GetRegisterNFCRequestDTO) (uint64, []dao.TransactionNFC, error)
 	SetTickerMonitoringNFC(ctx *gin.Context, conn *websocket.Conn) error
 	GetPendingOKP(ctx *gin.Context, status string) ([]string, error)
+	GetDistinctItemOKP(ctx *gin.Context, batchNo string) ([]dao.ItemPickingSlip, error)
 	GetBySupplierLotNo(ctx *gin.Context, supplierLotNo string) ([]dao.TransactionNFC, error)
 	GetRegisterNFC(ctx *gin.Context, request transactionNFCDTO.PatchRegisterNFCRequestDTO) (dao.TransactionNFC, error)
 	GetMonitoringNFC(ctx *gin.Context) (dao.MonitoringNFC, error)

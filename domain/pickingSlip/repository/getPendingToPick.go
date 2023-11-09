@@ -26,8 +26,12 @@ func (r *repository) GetPendingToPick(ctx *gin.Context, req pickingSlipDTO.GetPe
 		query = query.Where("batch_no = ?", *req.BatchNo)
 	}
 
+	if req.ItemCode != nil {
+		query = query.Where("item_code = ?", *req.ItemCode)
+	}
+
 	if req.SupplierLotNo != nil {
-		query = query.Where("supplier_lot_no LIKE ?", *req.SupplierLotNo+"%")
+		query = query.Where("supplier_lot_no LIKE ?", "%"+*req.SupplierLotNo+"%")
 	}
 
 	if err := query.Find(&items).Error; err != nil {

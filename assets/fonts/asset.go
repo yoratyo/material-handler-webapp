@@ -98,7 +98,7 @@ func assetsFontsAssetGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/fonts/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1660653797, 0)}
+	info := bindataFileInfo{name: "assets/fonts/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1699544801, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -118,7 +118,7 @@ func assetsFontsNucleoNucleoIconsEot() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/fonts/nucleo/nucleo-icons.eot", size: 18516, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/fonts/nucleo/nucleo-icons.eot", size: 18516, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -138,7 +138,7 @@ func assetsFontsNucleoNucleoIconsSvg() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/fonts/nucleo/nucleo-icons.svg", size: 126098, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/fonts/nucleo/nucleo-icons.svg", size: 126098, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -158,7 +158,7 @@ func assetsFontsNucleoNucleoIconsTtf() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/fonts/nucleo/nucleo-icons.ttf", size: 18292, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/fonts/nucleo/nucleo-icons.ttf", size: 18292, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -178,7 +178,7 @@ func assetsFontsNucleoNucleoIconsWoff() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/fonts/nucleo/nucleo-icons.woff", size: 10220, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/fonts/nucleo/nucleo-icons.woff", size: 10220, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -198,7 +198,7 @@ func assetsFontsNucleoNucleoIconsWoff2() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/fonts/nucleo/nucleo-icons.woff2", size: 8580, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/fonts/nucleo/nucleo-icons.woff2", size: 8580, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

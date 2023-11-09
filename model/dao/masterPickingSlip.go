@@ -41,6 +41,11 @@ type (
 		IsEdit             bool       `json:"isEdit" gorm:"not null"`
 		IsCancel           bool       `json:"isCancel" gorm:"not null"`
 	}
+
+	ItemPickingSlip struct {
+		ItemCode        string `json:"itemCode"`
+		ItemDescription string `json:"itemDescription"`
+	}
 )
 
 func (MasterPickingSlip) TableName() string {

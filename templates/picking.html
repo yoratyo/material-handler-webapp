@@ -74,6 +74,16 @@
                                                 {{ end }}
                                             </select>
                                         </div>
+                                        <br>
+                                        <div class="col-lg-12">
+                                            <label class="form-control-label" for="input-username">Item Material</label>
+                                            <select class="form-control" name="itemCode" id="itemCodeFilter">
+                                                <option value="0">All Item</option>
+                                                {{ range .listItemMaterial }}
+                                                    <option value="{{ .ItemCode }}">{{ .ItemCode }} - {{ .ItemDescription }}</option>
+                                                {{ end }}
+                                            </select>
+                                        </div>
                                         <hr class="my-4"/>
                                         <div class="col-lg-12">
                                             <div class="input-group input-group-merge input-group-alternative">
@@ -142,9 +152,16 @@
                                                     </div>
                                                 </div>
                                             </th>
-                                            <td id="{{ .LotNo }}">
-                                                {{ .LotNo }}
-                                            </td>
+                                            <th scope="row">
+                                                <div class="media align-items-center">
+                                                    <div class="media-body">
+                                                        <span class="name mb-0 text-sm"
+                                                              id="{{ .LotNo }}">{{ .LotNo }}</span>
+                                                        <br>
+                                                        <span class="text-info" id="{{ .SupplierLotNo }}">{{ .SupplierLotNo }}</span>
+                                                    </div>
+                                                </div>
+                                            </th>
                                             <td id="{{ .StockLocator }}">
                                                 {{ .StockLocator }}
                                             </td>
@@ -209,6 +226,7 @@
                                                                 <div class="form-group">
                                                                     <label class="form-control-label" for="input-city">LotNumber</label>
                                                                     <p id="lotnumber"></p>
+                                                                    <span class="text-info" id="supLotnum"></span>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -322,8 +340,9 @@
     {{ end }}
 
 
-    function setOKP() {
+    function setFilter() {
         document.getElementById('okpNum').value = {{ .okp }};
+        document.getElementById('itemCodeFilter').value = {{ .activeItemCode }};
     }
 
     function addRowHandlers() {
@@ -334,15 +353,16 @@
             const createClickHandler = function (row) {
                 return function () {
                     const id = row.getElementsByTagName("td")[0].id;
-                    const bag = row.getElementsByTagName("td")[5].id;
+                    const bag = row.getElementsByTagName("td")[4].id;
                     const pickslipfield = row.getElementsByTagName("span")[0].id;
                     const okpnum = row.getElementsByTagName("td")[1].id;
-                    const loc = row.getElementsByTagName("td")[3].id;
+                    const loc = row.getElementsByTagName("td")[2].id;
                     const icode = row.getElementsByTagName("span")[3].id;
                     const idesc = row.getElementsByTagName("p")[0].id;
-                    const actqty = row.getElementsByTagName("span")[4].id;
-                    const uomcode = row.getElementsByTagName("span")[5].id;
-                    const lotnum = row.getElementsByTagName("td")[2].id;
+                    const actqty = row.getElementsByTagName("span")[6].id;
+                    const uomcode = row.getElementsByTagName("span")[7].id;
+                    const lotnum = row.getElementsByTagName("span")[4].id;
+                    const supLotnum = row.getElementsByTagName("span")[5].id;
 
                     document.getElementById("idPickingSlipField").value = id;
                     document.getElementById("pickSlipNo").innerHTML = pickslipfield;
@@ -352,6 +372,7 @@
                     document.getElementById("actqty").innerHTML = actqty+' '+uomcode;
                     document.getElementById("actualBagField").value = bag;
                     document.getElementById("lotnumber").innerHTML = lotnum;
+                    document.getElementById("supLotnum").innerHTML = supLotnum;
                 };
             };
             currentRow.onclick = createClickHandler(currentRow);
@@ -362,6 +383,10 @@
         window.location = "/page/picking?batchNo=" + this.value;
     };
 
+    document.getElementById('itemCodeFilter').onchange = function () {
+        window.location = "/page/picking?batchNo=" + {{ .okp }} + "&itemCode=" + this.value;
+    };
+
     function setCursorBarcode() {
         setInterval(function () {
             document.getElementById('barcodeField').focus();
@@ -369,7 +394,7 @@
     }
 
     window.onload = function () {
-        setOKP();
+        setFilter();
         addRowHandlers();
         //setCursorBarcode();
     }

@@ -9,6 +9,7 @@ import (
 type Service interface {
 	GetPending(ctx *gin.Context, req pickingSlipDTO.GetPendingPickingRequestDTO) (uint64, []dao.MasterPickingSlip, error)
 	GetDistinctPendingOKP(ctx *gin.Context) ([]string, error)
+	GetDistinctItemOKP(ctx *gin.Context, batchNo string) ([]dao.ItemPickingSlip, error)
 	PatchCompletePick(ctx *gin.Context, ID uint64, data pickingSlipDTO.PatchCompletePickRequestDTO) error
 	GetByID(ctx *gin.Context, ID uint64) (dao.MasterPickingSlip, error)
 	GetTodayPickingMonitoring(ctx *gin.Context) (dao.PickingMonitoring, error)

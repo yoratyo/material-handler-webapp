@@ -121,7 +121,7 @@ func assetsJsArgonJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/argon.js", size: 21706, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/argon.js", size: 21706, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -141,7 +141,7 @@ func assetsJsArgonMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/argon.min.js", size: 11509, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/argon.min.js", size: 11509, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -161,7 +161,7 @@ func assetsJsAssetGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1660653797, 0)}
+	info := bindataFileInfo{name: "assets/js/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1699544801, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -181,7 +181,7 @@ func assetsJsComponentsChartsChartBarsJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/charts/chart-bars.js", size: 547, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/charts/chart-bars.js", size: 547, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -201,7 +201,7 @@ func assetsJsComponentsChartsChartBarsMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/charts/chart-bars.min.js", size: 251, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/charts/chart-bars.min.js", size: 251, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -221,7 +221,7 @@ func assetsJsComponentsChartsChartLineJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/charts/chart-line.js", size: 1573, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/charts/chart-line.js", size: 1573, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -241,7 +241,7 @@ func assetsJsComponentsChartsChartLineMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/charts/chart-line.min.js", size: 701, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/charts/chart-line.min.js", size: 701, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -261,7 +261,7 @@ func assetsJsComponentsCustomFormControlJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/custom/form-control.js", size: 372, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/custom/form-control.js", size: 372, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -281,7 +281,7 @@ func assetsJsComponentsCustomFormControlMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/custom/form-control.min.js", size: 219, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/custom/form-control.min.js", size: 219, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -301,7 +301,7 @@ func assetsJsComponentsInitChartInitJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/chart-init.js", size: 6069, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/chart-init.js", size: 6069, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -321,7 +321,7 @@ func assetsJsComponentsInitChartInitMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/chart-init.min.js", size: 3080, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/chart-init.min.js", size: 3080, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -341,7 +341,7 @@ func assetsJsComponentsInitCopyIconJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/copy-icon.js", size: 777, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/copy-icon.js", size: 777, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -361,7 +361,7 @@ func assetsJsComponentsInitCopyIconMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/copy-icon.min.js", size: 376, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/copy-icon.min.js", size: 376, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -381,7 +381,7 @@ func assetsJsComponentsInitNavbarJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/navbar.js", size: 1818, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/navbar.js", size: 1818, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -401,7 +401,7 @@ func assetsJsComponentsInitNavbarMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/navbar.min.js", size: 937, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/navbar.min.js", size: 937, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -421,7 +421,7 @@ func assetsJsComponentsInitPopoverJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/popover.js", size: 615, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/popover.js", size: 615, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -441,7 +441,7 @@ func assetsJsComponentsInitPopoverMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/popover.min.js", size: 383, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/popover.min.js", size: 383, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -461,7 +461,7 @@ func assetsJsComponentsInitScrollToJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/scroll-to.js", size: 686, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/scroll-to.js", size: 686, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -481,7 +481,7 @@ func assetsJsComponentsInitScrollToMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/scroll-to.min.js", size: 369, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/scroll-to.min.js", size: 369, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -501,7 +501,7 @@ func assetsJsComponentsInitTooltipJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/tooltip.js", size: 240, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/tooltip.js", size: 240, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -521,7 +521,7 @@ func assetsJsComponentsInitTooltipMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/init/tooltip.min.js", size: 113, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/init/tooltip.min.js", size: 113, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -541,7 +541,7 @@ func assetsJsComponentsMapsMapsDefaultJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/maps/maps-default.js", size: 1148, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/maps/maps-default.js", size: 1148, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -561,7 +561,7 @@ func assetsJsComponentsMapsMapsDefaultMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/maps/maps-default.min.js", size: 773, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/maps/maps-default.min.js", size: 773, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -581,7 +581,7 @@ func assetsJsComponentsVendorBootstrapDatepickerJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/vendor/bootstrap-datepicker.js", size: 383, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/vendor/bootstrap-datepicker.js", size: 383, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -601,7 +601,7 @@ func assetsJsComponentsVendorBootstrapDatepickerMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/vendor/bootstrap-datepicker.min.js", size: 184, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/vendor/bootstrap-datepicker.min.js", size: 184, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -621,7 +621,7 @@ func assetsJsComponentsVendorNouisliderJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/vendor/nouislider.js", size: 2164, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/vendor/nouislider.js", size: 2164, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -641,7 +641,7 @@ func assetsJsComponentsVendorNouisliderMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/vendor/nouislider.min.js", size: 1081, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/vendor/nouislider.min.js", size: 1081, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -661,7 +661,7 @@ func assetsJsComponentsVendorScrollbarJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/vendor/scrollbar.js", size: 257, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/vendor/scrollbar.js", size: 257, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -681,7 +681,7 @@ func assetsJsComponentsVendorScrollbarMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/js/components/vendor/scrollbar.min.js", size: 125, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/js/components/vendor/scrollbar.min.js", size: 125, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

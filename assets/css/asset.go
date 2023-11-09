@@ -101,7 +101,7 @@ func assetsCssArgonCss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/css/argon.css", size: 490493, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/css/argon.css", size: 490493, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -121,7 +121,7 @@ func assetsCssArgonMinCss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/css/argon.min.css", size: 357246, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/css/argon.min.css", size: 357246, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -141,7 +141,7 @@ func assetsCssAssetGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/css/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1660653797, 0)}
+	info := bindataFileInfo{name: "assets/css/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1699544801, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -161,7 +161,7 @@ func assetsCssBootstrapBootstrapGridCss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap-grid.css", size: 66082, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap-grid.css", size: 66082, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -181,7 +181,7 @@ func assetsCssBootstrapBootstrapGridMinCss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap-grid.min.css", size: 41043, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap-grid.min.css", size: 41043, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -201,7 +201,7 @@ func assetsCssBootstrapBootstrapRebootCss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap-reboot.css", size: 4990, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap-reboot.css", size: 4990, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -221,7 +221,7 @@ func assetsCssBootstrapBootstrapRebootMinCss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap-reboot.min.css", size: 3836, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap-reboot.min.css", size: 3836, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -241,7 +241,7 @@ func assetsCssBootstrapBootstrapCss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap.css", size: 196571, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap.css", size: 196571, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -261,7 +261,7 @@ func assetsCssBootstrapBootstrapMinCss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap.min.css", size: 144813, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/css/bootstrap/bootstrap.min.css", size: 144813, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

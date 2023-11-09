@@ -2,13 +2,15 @@ package page
 
 import (
 	"fmt"
+	"net/http"
+	"strconv"
+
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
+	"github.com/yoratyo/material-handler-webapp/model/dao"
 	transactionNFCDTO "github.com/yoratyo/material-handler-webapp/model/dto/transactionNFC"
 	userDTO "github.com/yoratyo/material-handler-webapp/model/dto/userLogin"
 	"github.com/yoratyo/material-handler-webapp/shared"
-	"net/http"
-	"strconv"
 )
 
 func (h handler) NFC(c *gin.Context) {
@@ -23,9 +25,10 @@ func (h handler) NFC(c *gin.Context) {
 	}
 
 	var (
-		activeOKP                          string = "0"
+		activeOKP, activeItemCode          string = "0", "0"
 		err                                error
-		milisNotifSuccess, milisNotifError int64 = 0, 0
+		milisNotifSuccess, milisNotifError int64                 = 0, 0
+		listItemMaterial                   []dao.ItemPickingSlip = []dao.ItemPickingSlip{}
 	)
 
 	response := gin.H{
@@ -64,6 +67,14 @@ func (h handler) NFC(c *gin.Context) {
 		}
 	}
 
+	if params.ItemCode != nil {
+		activeItemCode = *params.ItemCode
+		if *params.ItemCode == "0" {
+			params.ItemCode = nil
+			activeItemCode = "0"
+		}
+	}
+
 	if params.SupplierLotNo != nil {
 		if *params.SupplierLotNo == "" {
 			params.SupplierLotNo = nil
@@ -75,6 +86,15 @@ func (h handler) NFC(c *gin.Context) {
 	if err != nil {
 		response["errMessage"] = "Failed get list pending data"
 		return
+	}
+
+	// get list item OKP
+	if activeOKP != "0" {
+		listItemMaterial, err = h.domain.TransactionNFC.GetDistinctItemOKP(c, activeOKP)
+		if err != nil {
+			response["errMessage"] = "Failed get list item material"
+			return
+		}
 	}
 
 	// get list to be register NFC
@@ -90,6 +110,8 @@ func (h handler) NFC(c *gin.Context) {
 	response["totalRegister"] = count
 	response["listBatchNo"] = listOKP
 	response["okp"] = activeOKP
+	response["activeItemCode"] = activeItemCode
+	response["listItemMaterial"] = listItemMaterial
 
 	errMessage, err := c.Cookie("error")
 	if err == nil {

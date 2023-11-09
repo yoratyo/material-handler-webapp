@@ -83,6 +83,16 @@
                                                 {{ end }}
                                             </select>
                                         </div>
+                                        <br>
+                                        <div class="col-lg-12">
+                                            <label class="form-control-label" for="input-username">Item Material</label>
+                                            <select class="form-control" name="itemCode" id="itemCodeFilter">
+                                                <option value="0">All Item</option>
+                                                {{ range .listItemMaterial }}
+                                                    <option value="{{ .ItemCode }}">{{ .ItemCode }} - {{ .ItemDescription }}</option>
+                                                {{ end }}
+                                            </select>
+                                        </div>
                                         <hr class="my-4"/>
                                         <div class="col-lg-12">
                                             <div class="input-group input-group-merge input-group-alternative">
@@ -124,6 +134,7 @@
                                         <th scope="col">Pick Slip No</th>
                                         <th scope="col">OKP No</th>
                                         <th scope="col">Item</th>
+                                        <th scope="col">Lot No</th>
                                         <th scope="col">Bag Number</th>
                                         <th scope="col">Submit</th>
                                     </tr>
@@ -146,6 +157,16 @@
                                                         <span class="name mb-0 text-sm"
                                                               id="{{ .ItemCode }}">{{ .ItemCode }}</span>
                                                         <p id="{{ .ItemDescription }}">{{ .ItemDescription }}</p>
+                                                    </div>
+                                                </div>
+                                            </th>
+                                            <th scope="row">
+                                                <div class="media align-items-center">
+                                                    <div class="media-body">
+                                                        <span class="name mb-0 text-sm"
+                                                              id="{{ .LotNo }}">{{ .LotNo }}</span>
+                                                        <br>
+                                                        <span class="text-info" id="{{ .SupplierLotNo }}">{{ .SupplierLotNo }}</span>
                                                     </div>
                                                 </div>
                                             </th>
@@ -259,9 +280,10 @@
     {{ end }}
 
 
-    // OKP dropdown selected
-    function setOKP() {
+    // filter dropdown selected
+    function setFilter() {
         document.getElementById('okpNum').value = {{ .okp }};
+        document.getElementById('itemCodeFilter').value = {{ .activeItemCode }};
     }
 
     // OKP dropdown action
@@ -269,9 +291,14 @@
         window.location = "/page/nfc?batchNo=" + this.value;
     };
 
+    // item code dropdown action
+    document.getElementById('itemCodeFilter').onchange = function () {
+        window.location = "/page/nfc?batchNo=" + {{ .okp }} + "&itemCode=" + this.value;
+    };
+
 
     window.onload = function () {
-        setOKP();
+        setFilter();
     }
 </script>
 </body>

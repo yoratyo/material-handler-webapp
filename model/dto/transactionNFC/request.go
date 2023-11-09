@@ -3,6 +3,7 @@ package transactionNFC
 type (
 	GetRegisterNFCRequestDTO struct {
 		BatchNo       *string `form:"batchNo" binding:"omitempty"`
+		ItemCode      *string `form:"itemCode" binding:"omitempty"`
 		SupplierLotNo *string `form:"supplierLotNo" binding:"omitempty"`
 	}
 	PatchRegisterNFCRequestDTO struct {

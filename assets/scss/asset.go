@@ -386,7 +386,7 @@ func assetsScssArgonScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/argon.scss", size: 1897, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/argon.scss", size: 1897, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -406,7 +406,7 @@ func assetsScssAssetGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1660653797, 0)}
+	info := bindataFileInfo{name: "assets/scss/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1699544801, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -426,7 +426,7 @@ func assetsScssBootstrap_alertScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_alert.scss", size: 1148, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_alert.scss", size: 1148, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -446,7 +446,7 @@ func assetsScssBootstrap_badgeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_badge.scss", size: 1121, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_badge.scss", size: 1121, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -466,7 +466,7 @@ func assetsScssBootstrap_breadcrumbScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_breadcrumb.scss", size: 1335, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_breadcrumb.scss", size: 1335, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -486,7 +486,7 @@ func assetsScssBootstrap_buttonGroupScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_button-group.scss", size: 3626, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_button-group.scss", size: 3626, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -506,7 +506,7 @@ func assetsScssBootstrap_buttonsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_buttons.scss", size: 2649, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_buttons.scss", size: 2649, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -526,7 +526,7 @@ func assetsScssBootstrap_cardScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_card.scss", size: 5616, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_card.scss", size: 5616, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -546,7 +546,7 @@ func assetsScssBootstrap_carouselScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_carousel.scss", size: 4794, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_carousel.scss", size: 4794, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -566,7 +566,7 @@ func assetsScssBootstrap_closeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_close.scss", size: 960, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_close.scss", size: 960, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -586,7 +586,7 @@ func assetsScssBootstrap_codeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_code.scss", size: 1012, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_code.scss", size: 1012, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -606,7 +606,7 @@ func assetsScssBootstrap_customFormsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_custom-forms.scss", size: 15445, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_custom-forms.scss", size: 15445, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -626,7 +626,7 @@ func assetsScssBootstrap_dropdownScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_dropdown.scss", size: 4373, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_dropdown.scss", size: 4373, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -646,7 +646,7 @@ func assetsScssBootstrap_formsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_forms.scss", size: 9058, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_forms.scss", size: 9058, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -666,7 +666,7 @@ func assetsScssBootstrap_functionsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_functions.scss", size: 3896, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_functions.scss", size: 3896, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -686,7 +686,7 @@ func assetsScssBootstrap_gridScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_grid.scss", size: 1583, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_grid.scss", size: 1583, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -706,7 +706,7 @@ func assetsScssBootstrap_imagesScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_images.scss", size: 1157, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_images.scss", size: 1157, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -726,7 +726,7 @@ func assetsScssBootstrap_inputGroupScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_input-group.scss", size: 5787, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_input-group.scss", size: 5787, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -746,7 +746,7 @@ func assetsScssBootstrap_jumbotronScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_jumbotron.scss", size: 405, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_jumbotron.scss", size: 405, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -766,7 +766,7 @@ func assetsScssBootstrap_listGroupScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_list-group.scss", size: 3886, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_list-group.scss", size: 3886, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -786,7 +786,7 @@ func assetsScssBootstrap_mediaScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_media.scss", size: 83, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_media.scss", size: 83, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -806,7 +806,7 @@ func assetsScssBootstrap_mixinsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_mixins.scss", size: 1050, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_mixins.scss", size: 1050, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -826,7 +826,7 @@ func assetsScssBootstrap_modalScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_modal.scss", size: 6278, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_modal.scss", size: 6278, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -846,7 +846,7 @@ func assetsScssBootstrap_navScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_nav.scss", size: 2082, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_nav.scss", size: 2082, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -866,7 +866,7 @@ func assetsScssBootstrap_navbarScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_navbar.scss", size: 7399, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_navbar.scss", size: 7399, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -886,7 +886,7 @@ func assetsScssBootstrap_paginationScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_pagination.scss", size: 1740, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_pagination.scss", size: 1740, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -906,7 +906,7 @@ func assetsScssBootstrap_popoverScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_popover.scss", size: 4705, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_popover.scss", size: 4705, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -926,7 +926,7 @@ func assetsScssBootstrap_printScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_print.scss", size: 3033, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_print.scss", size: 3033, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -946,7 +946,7 @@ func assetsScssBootstrap_progressScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_progress.scss", size: 1153, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_progress.scss", size: 1153, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -966,7 +966,7 @@ func assetsScssBootstrap_rebootScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_reboot.scss", size: 11504, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_reboot.scss", size: 11504, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -986,7 +986,7 @@ func assetsScssBootstrap_rootScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_root.scss", size: 627, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_root.scss", size: 627, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1006,7 +1006,7 @@ func assetsScssBootstrap_spinnersScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_spinners.scss", size: 1051, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_spinners.scss", size: 1051, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1026,7 +1026,7 @@ func assetsScssBootstrap_tablesScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_tables.scss", size: 3544, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_tables.scss", size: 3544, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1046,7 +1046,7 @@ func assetsScssBootstrap_toastsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_toasts.scss", size: 990, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_toasts.scss", size: 990, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1066,7 +1066,7 @@ func assetsScssBootstrap_tooltipScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_tooltip.scss", size: 2512, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_tooltip.scss", size: 2512, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1086,7 +1086,7 @@ func assetsScssBootstrap_transitionsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_transitions.scss", size: 261, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_transitions.scss", size: 261, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1106,7 +1106,7 @@ func assetsScssBootstrap_typeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_type.scss", size: 2248, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_type.scss", size: 2248, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1126,7 +1126,7 @@ func assetsScssBootstrap_utilitiesScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_utilities.scss", size: 502, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_utilities.scss", size: 502, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1146,7 +1146,7 @@ func assetsScssBootstrap_variablesScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/_variables.scss", size: 48459, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/_variables.scss", size: 48459, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1166,7 +1166,7 @@ func assetsScssBootstrapBootstrapGridScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/bootstrap-grid.scss", size: 572, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/bootstrap-grid.scss", size: 572, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1186,7 +1186,7 @@ func assetsScssBootstrapBootstrapRebootScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/bootstrap-reboot.scss", size: 411, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/bootstrap-reboot.scss", size: 411, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1206,7 +1206,7 @@ func assetsScssBootstrapBootstrapScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/bootstrap.scss", size: 920, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/bootstrap.scss", size: 920, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1226,7 +1226,7 @@ func assetsScssBootstrapMixins_alertScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_alert.scss", size: 242, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_alert.scss", size: 242, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1246,7 +1246,7 @@ func assetsScssBootstrapMixins_backgroundVariantScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_background-variant.scss", size: 581, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_background-variant.scss", size: 581, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1266,7 +1266,7 @@ func assetsScssBootstrapMixins_badgeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_badge.scss", size: 320, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_badge.scss", size: 320, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1286,7 +1286,7 @@ func assetsScssBootstrapMixins_borderRadiusScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_border-radius.scss", size: 1340, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_border-radius.scss", size: 1340, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1306,7 +1306,7 @@ func assetsScssBootstrapMixins_boxShadowScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_box-shadow.scss", size: 532, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_box-shadow.scss", size: 532, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1326,7 +1326,7 @@ func assetsScssBootstrapMixins_breakpointsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_breakpoints.scss", size: 4482, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_breakpoints.scss", size: 4482, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1346,7 +1346,7 @@ func assetsScssBootstrapMixins_buttonsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_buttons.scss", size: 3492, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_buttons.scss", size: 3492, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1366,7 +1366,7 @@ func assetsScssBootstrapMixins_caretScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_caret.scss", size: 1422, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_caret.scss", size: 1422, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1386,7 +1386,7 @@ func assetsScssBootstrapMixins_clearfixScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_clearfix.scss", size: 93, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_clearfix.scss", size: 93, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1406,7 +1406,7 @@ func assetsScssBootstrapMixins_deprecateScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_deprecate.scss", size: 613, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_deprecate.scss", size: 613, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1426,7 +1426,7 @@ func assetsScssBootstrapMixins_floatScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_float.scss", size: 392, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_float.scss", size: 392, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1446,7 +1446,7 @@ func assetsScssBootstrapMixins_formsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_forms.scss", size: 5094, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_forms.scss", size: 5094, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1466,7 +1466,7 @@ func assetsScssBootstrapMixins_gradientsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_gradients.scss", size: 2050, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_gradients.scss", size: 2050, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1486,7 +1486,7 @@ func assetsScssBootstrapMixins_gridFrameworkScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_grid-framework.scss", size: 1901, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_grid-framework.scss", size: 1901, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1506,7 +1506,7 @@ func assetsScssBootstrapMixins_gridScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_grid.scss", size: 1969, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_grid.scss", size: 1969, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1526,7 +1526,7 @@ func assetsScssBootstrapMixins_hoverScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_hover.scss", size: 757, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_hover.scss", size: 757, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1546,7 +1546,7 @@ func assetsScssBootstrapMixins_imageScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_image.scss", size: 1161, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_image.scss", size: 1161, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1566,7 +1566,7 @@ func assetsScssBootstrapMixins_listGroupScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_list-group.scss", size: 433, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_list-group.scss", size: 433, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1586,7 +1586,7 @@ func assetsScssBootstrapMixins_listsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_lists.scss", size: 170, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_lists.scss", size: 170, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1606,7 +1606,7 @@ func assetsScssBootstrapMixins_navDividerScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_nav-divider.scss", size: 369, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_nav-divider.scss", size: 369, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1626,7 +1626,7 @@ func assetsScssBootstrapMixins_paginationScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_pagination.scss", size: 462, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_pagination.scss", size: 462, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1646,7 +1646,7 @@ func assetsScssBootstrapMixins_resetTextScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_reset-text.scss", size: 481, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_reset-text.scss", size: 481, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1666,7 +1666,7 @@ func assetsScssBootstrapMixins_resizeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_resize.scss", size: 202, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_resize.scss", size: 202, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1686,7 +1686,7 @@ func assetsScssBootstrapMixins_screenReaderScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_screen-reader.scss", size: 811, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_screen-reader.scss", size: 811, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1706,7 +1706,7 @@ func assetsScssBootstrapMixins_sizeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_size.scss", size: 148, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_size.scss", size: 148, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1726,7 +1726,7 @@ func assetsScssBootstrapMixins_tableRowScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_table-row.scss", size: 794, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_table-row.scss", size: 794, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1746,7 +1746,7 @@ func assetsScssBootstrapMixins_textEmphasisScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_text-emphasis.scss", size: 474, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_text-emphasis.scss", size: 474, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1766,7 +1766,7 @@ func assetsScssBootstrapMixins_textHideScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_text-hide.scss", size: 326, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_text-hide.scss", size: 326, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1786,7 +1786,7 @@ func assetsScssBootstrapMixins_textTruncateScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_text-truncate.scss", size: 168, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_text-truncate.scss", size: 168, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1806,7 +1806,7 @@ func assetsScssBootstrapMixins_transitionScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_transition.scss", size: 364, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_transition.scss", size: 364, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1826,7 +1826,7 @@ func assetsScssBootstrapMixins_visibilityScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_visibility.scss", size: 189, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/mixins/_visibility.scss", size: 189, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1846,7 +1846,7 @@ func assetsScssBootstrapUtilities_alignScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_align.scss", size: 420, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_align.scss", size: 420, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1866,7 +1866,7 @@ func assetsScssBootstrapUtilities_backgroundScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_background.scss", size: 403, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_background.scss", size: 403, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1886,7 +1886,7 @@ func assetsScssBootstrapUtilities_bordersScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_borders.scss", size: 1765, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_borders.scss", size: 1765, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1906,7 +1906,7 @@ func assetsScssBootstrapUtilities_clearfixScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_clearfix.scss", size: 37, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_clearfix.scss", size: 37, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1926,7 +1926,7 @@ func assetsScssBootstrapUtilities_displayScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_display.scss", size: 519, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_display.scss", size: 519, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1946,7 +1946,7 @@ func assetsScssBootstrapUtilities_embedScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_embed.scss", size: 846, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_embed.scss", size: 846, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1966,7 +1966,7 @@ func assetsScssBootstrapUtilities_flexScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_flex.scss", size: 2769, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_flex.scss", size: 2769, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1986,7 +1986,7 @@ func assetsScssBootstrapUtilities_floatScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_float.scss", size: 376, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_float.scss", size: 376, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2006,7 +2006,7 @@ func assetsScssBootstrapUtilities_overflowScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_overflow.scss", size: 133, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_overflow.scss", size: 133, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2026,7 +2026,7 @@ func assetsScssBootstrapUtilities_positionScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_position.scss", size: 484, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_position.scss", size: 484, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2046,7 +2046,7 @@ func assetsScssBootstrapUtilities_screenreadersScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_screenreaders.scss", size: 115, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_screenreaders.scss", size: 115, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2066,7 +2066,7 @@ func assetsScssBootstrapUtilities_shadowsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_shadows.scss", size: 249, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_shadows.scss", size: 249, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2086,7 +2086,7 @@ func assetsScssBootstrapUtilities_sizingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_sizing.scss", size: 498, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_sizing.scss", size: 498, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2106,7 +2106,7 @@ func assetsScssBootstrapUtilities_spacingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_spacing.scss", size: 2101, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_spacing.scss", size: 2101, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2126,7 +2126,7 @@ func assetsScssBootstrapUtilities_stretchedLinkScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_stretched-link.scss", size: 431, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_stretched-link.scss", size: 431, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2146,7 +2146,7 @@ func assetsScssBootstrapUtilities_textScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_text.scss", size: 2018, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_text.scss", size: 2018, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2166,7 +2166,7 @@ func assetsScssBootstrapUtilities_visibilityScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_visibility.scss", size: 174, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/utilities/_visibility.scss", size: 174, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2186,7 +2186,7 @@ func assetsScssBootstrapVendor_rfsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/bootstrap/vendor/_rfs.scss", size: 6473, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/bootstrap/vendor/_rfs.scss", size: 6473, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2206,7 +2206,7 @@ func assetsScssCoreAlerts_alertDismissibleScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/alerts/_alert-dismissible.scss", size: 925, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/alerts/_alert-dismissible.scss", size: 925, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2226,7 +2226,7 @@ func assetsScssCoreAlerts_alertNotifyScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/alerts/_alert-notify.scss", size: 956, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/alerts/_alert-notify.scss", size: 956, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2246,7 +2246,7 @@ func assetsScssCoreAlerts_alertScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/alerts/_alert.scss", size: 638, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/alerts/_alert.scss", size: 638, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2266,7 +2266,7 @@ func assetsScssCoreAvatars_avatarGroupScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/avatars/_avatar-group.scss", size: 220, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/avatars/_avatar-group.scss", size: 220, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2286,7 +2286,7 @@ func assetsScssCoreAvatars_avatarScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/avatars/_avatar.scss", size: 753, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/avatars/_avatar.scss", size: 753, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2306,7 +2306,7 @@ func assetsScssCoreBadges_badgeCircleScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/badges/_badge-circle.scss", size: 440, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/badges/_badge-circle.scss", size: 440, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2326,7 +2326,7 @@ func assetsScssCoreBadges_badgeDotScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/badges/_badge-dot.scss", size: 655, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/badges/_badge-dot.scss", size: 655, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2346,7 +2346,7 @@ func assetsScssCoreBadges_badgeFloatingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/badges/_badge-floating.scss", size: 266, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/badges/_badge-floating.scss", size: 266, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2366,7 +2366,7 @@ func assetsScssCoreBadges_badgeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/badges/_badge.scss", size: 829, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/badges/_badge.scss", size: 829, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2386,7 +2386,7 @@ func assetsScssCoreBreadcrumbs_breadcrumbScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/breadcrumbs/_breadcrumb.scss", size: 656, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/breadcrumbs/_breadcrumb.scss", size: 656, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2406,7 +2406,7 @@ func assetsScssCoreButtons_buttonBrandScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/buttons/_button-brand.scss", size: 164, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/buttons/_button-brand.scss", size: 164, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2426,7 +2426,7 @@ func assetsScssCoreButtons_buttonGroupScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/buttons/_button-group.scss", size: 1558, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/buttons/_button-group.scss", size: 1558, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2446,7 +2446,7 @@ func assetsScssCoreButtons_buttonIconScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/buttons/_button-icon.scss", size: 1629, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/buttons/_button-icon.scss", size: 1629, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2466,7 +2466,7 @@ func assetsScssCoreButtons_buttonScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/buttons/_button.scss", size: 1433, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/buttons/_button.scss", size: 1433, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2486,7 +2486,7 @@ func assetsScssCoreCards_cardAnimationsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/cards/_card-animations.scss", size: 164, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/cards/_card-animations.scss", size: 164, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2506,7 +2506,7 @@ func assetsScssCoreCards_cardBlockquoteScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/cards/_card-blockquote.scss", size: 248, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/cards/_card-blockquote.scss", size: 248, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2526,7 +2526,7 @@ func assetsScssCoreCards_cardMoneyScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/cards/_card-money.scss", size: 516, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/cards/_card-money.scss", size: 516, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2546,7 +2546,7 @@ func assetsScssCoreCards_cardPricingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/cards/_card-pricing.scss", size: 434, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/cards/_card-pricing.scss", size: 434, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2566,7 +2566,7 @@ func assetsScssCoreCards_cardProfileScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/cards/_card-profile.scss", size: 884, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/cards/_card-profile.scss", size: 884, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2586,7 +2586,7 @@ func assetsScssCoreCards_cardStatsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/cards/_card-stats.scss", size: 226, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/cards/_card-stats.scss", size: 226, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2606,7 +2606,7 @@ func assetsScssCoreCards_cardScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/cards/_card.scss", size: 1011, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/cards/_card.scss", size: 1011, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2626,7 +2626,7 @@ func assetsScssCoreCharts_chartScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/charts/_chart.scss", size: 951, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/charts/_chart.scss", size: 951, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2646,7 +2646,7 @@ func assetsScssCoreClose_closeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/close/_close.scss", size: 873, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/close/_close.scss", size: 873, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2666,7 +2666,7 @@ func assetsScssCoreCollapse_accordionScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/collapse/_accordion.scss", size: 577, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/collapse/_accordion.scss", size: 577, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2686,7 +2686,7 @@ func assetsScssCoreContent_mainContentScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/content/_main-content.scss", size: 433, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/content/_main-content.scss", size: 433, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2706,7 +2706,7 @@ func assetsScssCoreCustomForms_customCheckboxScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/custom-forms/_custom-checkbox.scss", size: 1104, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/custom-forms/_custom-checkbox.scss", size: 1104, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2726,7 +2726,7 @@ func assetsScssCoreCustomForms_customControlScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/custom-forms/_custom-control.scss", size: 1453, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/custom-forms/_custom-control.scss", size: 1453, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2746,7 +2746,7 @@ func assetsScssCoreCustomForms_customFormScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/custom-forms/_custom-form.scss", size: 902, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/custom-forms/_custom-form.scss", size: 902, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2766,7 +2766,7 @@ func assetsScssCoreCustomForms_customRadioScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/custom-forms/_custom-radio.scss", size: 941, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/custom-forms/_custom-radio.scss", size: 941, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2786,7 +2786,7 @@ func assetsScssCoreCustomForms_customToggleScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/custom-forms/_custom-toggle.scss", size: 2821, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/custom-forms/_custom-toggle.scss", size: 2821, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2806,7 +2806,7 @@ func assetsScssCoreDropdowns_dropdownScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/dropdowns/_dropdown.scss", size: 1339, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/dropdowns/_dropdown.scss", size: 1339, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2826,7 +2826,7 @@ func assetsScssCoreFooters_footerScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/footers/_footer.scss", size: 1925, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/footers/_footer.scss", size: 1925, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2846,7 +2846,7 @@ func assetsScssCoreForms_formExtendScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/forms/_form-extend.scss", size: 1099, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/forms/_form-extend.scss", size: 1099, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2866,7 +2866,7 @@ func assetsScssCoreForms_formValidationScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/forms/_form-validation.scss", size: 1464, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/forms/_form-validation.scss", size: 1464, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2886,7 +2886,7 @@ func assetsScssCoreForms_formScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/forms/_form.scss", size: 1944, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/forms/_form.scss", size: 1944, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2906,7 +2906,7 @@ func assetsScssCoreForms_inputGroupScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/forms/_input-group.scss", size: 2124, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/forms/_input-group.scss", size: 2124, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2926,7 +2926,7 @@ func assetsScssCoreFree_gridScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/_grid.scss", size: 568, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/_grid.scss", size: 568, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2946,7 +2946,7 @@ func assetsScssCoreFreeAlerts_alertDismissibleScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/alerts/_alert-dismissible.scss", size: 925, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/alerts/_alert-dismissible.scss", size: 925, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2966,7 +2966,7 @@ func assetsScssCoreFreeAlerts_alertScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/alerts/_alert.scss", size: 638, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/alerts/_alert.scss", size: 638, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -2986,7 +2986,7 @@ func assetsScssCoreFreeAvatars_avatarGroupScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/avatars/_avatar-group.scss", size: 220, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/avatars/_avatar-group.scss", size: 220, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3006,7 +3006,7 @@ func assetsScssCoreFreeAvatars_avatarScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/avatars/_avatar.scss", size: 637, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/avatars/_avatar.scss", size: 637, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3026,7 +3026,7 @@ func assetsScssCoreFreeBadges_badgeCircleScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/badges/_badge-circle.scss", size: 440, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/badges/_badge-circle.scss", size: 440, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3046,7 +3046,7 @@ func assetsScssCoreFreeBadges_badgeDotScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/badges/_badge-dot.scss", size: 655, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/badges/_badge-dot.scss", size: 655, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3066,7 +3066,7 @@ func assetsScssCoreFreeBadges_badgeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/badges/_badge.scss", size: 829, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/badges/_badge.scss", size: 829, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3086,7 +3086,7 @@ func assetsScssCoreFreeBreadcrumbs_breadcrumbScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/breadcrumbs/_breadcrumb.scss", size: 656, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/breadcrumbs/_breadcrumb.scss", size: 656, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3106,7 +3106,7 @@ func assetsScssCoreFreeButtons_buttonBrandScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/buttons/_button-brand.scss", size: 164, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/buttons/_button-brand.scss", size: 164, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3126,7 +3126,7 @@ func assetsScssCoreFreeButtons_buttonIconScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/buttons/_button-icon.scss", size: 1629, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/buttons/_button-icon.scss", size: 1629, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3146,7 +3146,7 @@ func assetsScssCoreFreeButtons_buttonScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/buttons/_button.scss", size: 1433, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/buttons/_button.scss", size: 1433, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3166,7 +3166,7 @@ func assetsScssCoreFreeCards_cardAnimationsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/cards/_card-animations.scss", size: 164, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/cards/_card-animations.scss", size: 164, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3186,7 +3186,7 @@ func assetsScssCoreFreeCards_cardBlockquoteScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/cards/_card-blockquote.scss", size: 248, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/cards/_card-blockquote.scss", size: 248, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3206,7 +3206,7 @@ func assetsScssCoreFreeCards_cardProfileScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/cards/_card-profile.scss", size: 884, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/cards/_card-profile.scss", size: 884, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3226,7 +3226,7 @@ func assetsScssCoreFreeCards_cardStatsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/cards/_card-stats.scss", size: 226, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/cards/_card-stats.scss", size: 226, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3246,7 +3246,7 @@ func assetsScssCoreFreeCards_cardScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/cards/_card.scss", size: 1011, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/cards/_card.scss", size: 1011, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3266,7 +3266,7 @@ func assetsScssCoreFreeCharts_chartScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/charts/_chart.scss", size: 943, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/charts/_chart.scss", size: 943, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3286,7 +3286,7 @@ func assetsScssCoreFreeClose_closeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/close/_close.scss", size: 665, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/close/_close.scss", size: 665, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3306,7 +3306,7 @@ func assetsScssCoreFreeCollapse_accordionScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/collapse/_accordion.scss", size: 577, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/collapse/_accordion.scss", size: 577, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3326,7 +3326,7 @@ func assetsScssCoreFreeContent_mainContentScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/content/_main-content.scss", size: 433, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/content/_main-content.scss", size: 433, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3346,7 +3346,7 @@ func assetsScssCoreFreeCustomForms_customCheckboxScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/custom-forms/_custom-checkbox.scss", size: 1104, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/custom-forms/_custom-checkbox.scss", size: 1104, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3366,7 +3366,7 @@ func assetsScssCoreFreeCustomForms_customControlScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/custom-forms/_custom-control.scss", size: 1453, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/custom-forms/_custom-control.scss", size: 1453, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3386,7 +3386,7 @@ func assetsScssCoreFreeCustomForms_customFormScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/custom-forms/_custom-form.scss", size: 902, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/custom-forms/_custom-form.scss", size: 902, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3406,7 +3406,7 @@ func assetsScssCoreFreeCustomForms_customRadioScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/custom-forms/_custom-radio.scss", size: 941, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/custom-forms/_custom-radio.scss", size: 941, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3426,7 +3426,7 @@ func assetsScssCoreFreeCustomForms_customToggleScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/custom-forms/_custom-toggle.scss", size: 2821, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/custom-forms/_custom-toggle.scss", size: 2821, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3446,7 +3446,7 @@ func assetsScssCoreFreeDropdowns_dropdownScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/dropdowns/_dropdown.scss", size: 1190, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/dropdowns/_dropdown.scss", size: 1190, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3466,7 +3466,7 @@ func assetsScssCoreFreeFooters_footerScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/footers/_footer.scss", size: 1925, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/footers/_footer.scss", size: 1925, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3486,7 +3486,7 @@ func assetsScssCoreFreeForms_formValidationScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/forms/_form-validation.scss", size: 1464, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/forms/_form-validation.scss", size: 1464, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3506,7 +3506,7 @@ func assetsScssCoreFreeForms_formScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/forms/_form.scss", size: 1944, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/forms/_form.scss", size: 1944, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3526,7 +3526,7 @@ func assetsScssCoreFreeForms_inputGroupScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/forms/_input-group.scss", size: 2124, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/forms/_input-group.scss", size: 2124, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3546,7 +3546,7 @@ func assetsScssCoreFreeGrid_gridScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/grid/_grid.scss", size: 568, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/grid/_grid.scss", size: 568, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3566,7 +3566,7 @@ func assetsScssCoreFreeHeaders_headerScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/headers/_header.scss", size: 53, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/headers/_header.scss", size: 53, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3586,7 +3586,7 @@ func assetsScssCoreFreeIcons_iconShapeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/icons/_icon-shape.scss", size: 534, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/icons/_icon-shape.scss", size: 534, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3606,7 +3606,7 @@ func assetsScssCoreFreeIcons_iconScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/icons/_icon.scss", size: 1002, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/icons/_icon.scss", size: 1002, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3626,7 +3626,7 @@ func assetsScssCoreFreeListGroups_listGroupScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/list-groups/_list-group.scss", size: 679, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/list-groups/_list-group.scss", size: 679, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3646,7 +3646,7 @@ func assetsScssCoreFreeMaps_mapScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/maps/_map.scss", size: 131, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/maps/_map.scss", size: 131, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3666,7 +3666,7 @@ func assetsScssCoreFreeMasks_maskScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/masks/_mask.scss", size: 152, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/masks/_mask.scss", size: 152, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3686,7 +3686,7 @@ func assetsScssCoreFreeMixins_alertScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_alert.scss", size: 434, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_alert.scss", size: 434, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3706,7 +3706,7 @@ func assetsScssCoreFreeMixins_backgroundVariantScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_background-variant.scss", size: 821, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_background-variant.scss", size: 821, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3726,7 +3726,7 @@ func assetsScssCoreFreeMixins_badgeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_badge.scss", size: 272, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_badge.scss", size: 272, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3746,7 +3746,7 @@ func assetsScssCoreFreeMixins_buttonsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_buttons.scss", size: 3362, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_buttons.scss", size: 3362, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3766,7 +3766,7 @@ func assetsScssCoreFreeMixins_customFormsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_custom-forms.scss", size: 988, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_custom-forms.scss", size: 988, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3786,7 +3786,7 @@ func assetsScssCoreFreeMixins_formsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_forms.scss", size: 2803, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_forms.scss", size: 2803, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3806,7 +3806,7 @@ func assetsScssCoreFreeMixins_iconScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_icon.scss", size: 278, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_icon.scss", size: 278, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3826,7 +3826,7 @@ func assetsScssCoreFreeMixins_modalsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_modals.scss", size: 394, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_modals.scss", size: 394, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3846,7 +3846,7 @@ func assetsScssCoreFreeMixins_popoverScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_popover.scss", size: 614, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/mixins/_popover.scss", size: 614, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3866,7 +3866,7 @@ func assetsScssCoreFreeModals_modalScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/modals/_modal.scss", size: 382, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/modals/_modal.scss", size: 382, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3886,7 +3886,7 @@ func assetsScssCoreFreeNavbars_navbarCollapseScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar-collapse.scss", size: 497, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar-collapse.scss", size: 497, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3906,7 +3906,7 @@ func assetsScssCoreFreeNavbars_navbarDropdownScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar-dropdown.scss", size: 2370, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar-dropdown.scss", size: 2370, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3926,7 +3926,7 @@ func assetsScssCoreFreeNavbars_navbarSearchScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar-search.scss", size: 4385, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar-search.scss", size: 4385, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3946,7 +3946,7 @@ func assetsScssCoreFreeNavbars_navbarTopScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar-top.scss", size: 1013, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar-top.scss", size: 1013, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3966,7 +3966,7 @@ func assetsScssCoreFreeNavbars_navbarVerticalScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar-vertical.scss", size: 12115, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar-vertical.scss", size: 12115, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -3986,7 +3986,7 @@ func assetsScssCoreFreeNavbars_navbarScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar.scss", size: 9151, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/navbars/_navbar.scss", size: 9151, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4006,7 +4006,7 @@ func assetsScssCoreFreeNavs_navPillsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/navs/_nav-pills.scss", size: 1227, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/navs/_nav-pills.scss", size: 1227, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4026,7 +4026,7 @@ func assetsScssCoreFreeNavs_navScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/navs/_nav.scss", size: 450, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/navs/_nav.scss", size: 450, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4046,7 +4046,7 @@ func assetsScssCoreFreePaginations_paginationScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/paginations/_pagination.scss", size: 747, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/paginations/_pagination.scss", size: 747, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4066,7 +4066,7 @@ func assetsScssCoreFreePopovers_popoverScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/popovers/_popover.scss", size: 241, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/popovers/_popover.scss", size: 241, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4086,7 +4086,7 @@ func assetsScssCoreFreeProgresses_progressScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/progresses/_progress.scss", size: 1411, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/progresses/_progress.scss", size: 1411, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4106,7 +4106,7 @@ func assetsScssCoreFreeReboot_rebootScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/reboot/_reboot.scss", size: 108, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/reboot/_reboot.scss", size: 108, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4126,7 +4126,7 @@ func assetsScssCoreFreeSections_nucleoIconsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/sections/_nucleo-icons.scss", size: 3042, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/sections/_nucleo-icons.scss", size: 3042, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4146,7 +4146,7 @@ func assetsScssCoreFreeSeparators_separatorScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/separators/_separator.scss", size: 703, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/separators/_separator.scss", size: 703, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4166,7 +4166,7 @@ func assetsScssCoreFreeTables_tableScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/tables/_table.scss", size: 2130, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/tables/_table.scss", size: 2130, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4186,7 +4186,7 @@ func assetsScssCoreFreeType_articleScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/type/_article.scss", size: 208, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/type/_article.scss", size: 208, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4206,7 +4206,7 @@ func assetsScssCoreFreeType_displayScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/type/_display.scss", size: 134, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/type/_display.scss", size: 134, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4226,7 +4226,7 @@ func assetsScssCoreFreeType_headingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/type/_heading.scss", size: 1105, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/type/_heading.scss", size: 1105, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4246,7 +4246,7 @@ func assetsScssCoreFreeType_typeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/type/_type.scss", size: 368, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/type/_type.scss", size: 368, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4266,7 +4266,7 @@ func assetsScssCoreFreeUtilities_backgroundsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_backgrounds.scss", size: 930, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_backgrounds.scss", size: 930, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4286,7 +4286,7 @@ func assetsScssCoreFreeUtilities_blurableScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_blurable.scss", size: 751, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_blurable.scss", size: 751, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4306,7 +4306,7 @@ func assetsScssCoreFreeUtilities_floatingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_floating.scss", size: 888, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_floating.scss", size: 888, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4326,7 +4326,7 @@ func assetsScssCoreFreeUtilities_helperScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_helper.scss", size: 240, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_helper.scss", size: 240, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4346,7 +4346,7 @@ func assetsScssCoreFreeUtilities_imageScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_image.scss", size: 99, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_image.scss", size: 99, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4366,7 +4366,7 @@ func assetsScssCoreFreeUtilities_opacityScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_opacity.scss", size: 522, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_opacity.scss", size: 522, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4386,7 +4386,7 @@ func assetsScssCoreFreeUtilities_overflowScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_overflow.scss", size: 130, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_overflow.scss", size: 130, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4406,7 +4406,7 @@ func assetsScssCoreFreeUtilities_positionScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_position.scss", size: 374, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_position.scss", size: 374, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4426,7 +4426,7 @@ func assetsScssCoreFreeUtilities_shadowsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_shadows.scss", size: 411, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_shadows.scss", size: 411, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4446,7 +4446,7 @@ func assetsScssCoreFreeUtilities_sizingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_sizing.scss", size: 57, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_sizing.scss", size: 57, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4466,7 +4466,7 @@ func assetsScssCoreFreeUtilities_spacingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_spacing.scss", size: 1988, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_spacing.scss", size: 1988, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4486,7 +4486,7 @@ func assetsScssCoreFreeUtilities_textScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_text.scss", size: 1246, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_text.scss", size: 1246, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4506,7 +4506,7 @@ func assetsScssCoreFreeUtilities_transformScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_transform.scss", size: 296, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/utilities/_transform.scss", size: 296, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4526,7 +4526,7 @@ func assetsScssCoreFreeVendors_bootstrapDatepickerScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_bootstrap-datepicker.scss", size: 6520, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_bootstrap-datepicker.scss", size: 6520, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4546,7 +4546,7 @@ func assetsScssCoreFreeVendors_chartjsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_chartjs.scss", size: 325, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_chartjs.scss", size: 325, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4566,7 +4566,7 @@ func assetsScssCoreFreeVendors_headroomScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_headroom.scss", size: 478, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_headroom.scss", size: 478, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4586,7 +4586,7 @@ func assetsScssCoreFreeVendors_lavalampScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_lavalamp.scss", size: 6692, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_lavalamp.scss", size: 6692, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4606,7 +4606,7 @@ func assetsScssCoreFreeVendors_nouisliderScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_nouislider.scss", size: 6497, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_nouislider.scss", size: 6497, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4626,7 +4626,7 @@ func assetsScssCoreFreeVendors_scrollbarScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_scrollbar.scss", size: 22768, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_scrollbar.scss", size: 22768, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4646,7 +4646,7 @@ func assetsScssCoreFreeVendors_select2Scss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_select2.scss", size: 6440, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/free/vendors/_select2.scss", size: 6440, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4666,7 +4666,7 @@ func assetsScssCoreGrid_gridScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/grid/_grid.scss", size: 568, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/grid/_grid.scss", size: 568, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4686,7 +4686,7 @@ func assetsScssCoreHeaders_headerScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/headers/_header.scss", size: 53, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/headers/_header.scss", size: 53, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4706,7 +4706,7 @@ func assetsScssCoreIcons_iconActionsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/icons/_icon-actions.scss", size: 891, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/icons/_icon-actions.scss", size: 891, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4726,7 +4726,7 @@ func assetsScssCoreIcons_iconShapeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/icons/_icon-shape.scss", size: 534, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/icons/_icon-shape.scss", size: 534, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4746,7 +4746,7 @@ func assetsScssCoreIcons_iconScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/icons/_icon.scss", size: 1002, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/icons/_icon.scss", size: 1002, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4766,7 +4766,7 @@ func assetsScssCoreListGroups_listCheckScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/list-groups/_list-check.scss", size: 931, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/list-groups/_list-check.scss", size: 931, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4786,7 +4786,7 @@ func assetsScssCoreListGroups_listGroupScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/list-groups/_list-group.scss", size: 679, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/list-groups/_list-group.scss", size: 679, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4806,7 +4806,7 @@ func assetsScssCoreMaps_mapScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/maps/_map.scss", size: 131, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/maps/_map.scss", size: 131, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4826,7 +4826,7 @@ func assetsScssCoreMasks_maskScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/masks/_mask.scss", size: 449, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/masks/_mask.scss", size: 449, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4846,7 +4846,7 @@ func assetsScssCoreMedias_mediaCommentScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/medias/_media-comment.scss", size: 516, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/medias/_media-comment.scss", size: 516, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4866,7 +4866,7 @@ func assetsScssCoreMedias_mediaScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/medias/_media.scss", size: 15, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/medias/_media.scss", size: 15, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4886,7 +4886,7 @@ func assetsScssCoreMixins_alertScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/mixins/_alert.scss", size: 434, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/mixins/_alert.scss", size: 434, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4906,7 +4906,7 @@ func assetsScssCoreMixins_backgroundVariantScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/mixins/_background-variant.scss", size: 821, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/mixins/_background-variant.scss", size: 821, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4926,7 +4926,7 @@ func assetsScssCoreMixins_badgeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/mixins/_badge.scss", size: 272, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/mixins/_badge.scss", size: 272, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4946,7 +4946,7 @@ func assetsScssCoreMixins_buttonsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/mixins/_buttons.scss", size: 3362, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/mixins/_buttons.scss", size: 3362, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4966,7 +4966,7 @@ func assetsScssCoreMixins_customFormsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/mixins/_custom-forms.scss", size: 988, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/mixins/_custom-forms.scss", size: 988, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -4986,7 +4986,7 @@ func assetsScssCoreMixins_formsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/mixins/_forms.scss", size: 2803, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/mixins/_forms.scss", size: 2803, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5006,7 +5006,7 @@ func assetsScssCoreMixins_iconScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/mixins/_icon.scss", size: 278, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/mixins/_icon.scss", size: 278, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5026,7 +5026,7 @@ func assetsScssCoreMixins_modalsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/mixins/_modals.scss", size: 394, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/mixins/_modals.scss", size: 394, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5046,7 +5046,7 @@ func assetsScssCoreMixins_popoverScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/mixins/_popover.scss", size: 614, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/mixins/_popover.scss", size: 614, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5066,7 +5066,7 @@ func assetsScssCoreModals_modalScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/modals/_modal.scss", size: 382, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/modals/_modal.scss", size: 382, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5086,7 +5086,7 @@ func assetsScssCoreNavbars_navbarCollapseScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-collapse.scss", size: 497, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-collapse.scss", size: 497, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5106,7 +5106,7 @@ func assetsScssCoreNavbars_navbarDropdownScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-dropdown.scss", size: 2370, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-dropdown.scss", size: 2370, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5126,7 +5126,7 @@ func assetsScssCoreNavbars_navbarFloatingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-floating.scss", size: 246, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-floating.scss", size: 246, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5146,7 +5146,7 @@ func assetsScssCoreNavbars_navbarSearchScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-search.scss", size: 4385, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-search.scss", size: 4385, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5166,7 +5166,7 @@ func assetsScssCoreNavbars_navbarTopScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-top.scss", size: 1013, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-top.scss", size: 1013, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5186,7 +5186,7 @@ func assetsScssCoreNavbars_navbarVerticalScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-vertical.scss", size: 12930, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar-vertical.scss", size: 12930, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5206,7 +5206,7 @@ func assetsScssCoreNavbars_navbarScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar.scss", size: 9149, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/navbars/_navbar.scss", size: 9149, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5226,7 +5226,7 @@ func assetsScssCoreNavs_navPillsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/navs/_nav-pills.scss", size: 1227, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/navs/_nav-pills.scss", size: 1227, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5246,7 +5246,7 @@ func assetsScssCoreNavs_navScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/navs/_nav.scss", size: 450, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/navs/_nav.scss", size: 450, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5266,7 +5266,7 @@ func assetsScssCorePaginations_paginationScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/paginations/_pagination.scss", size: 747, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/paginations/_pagination.scss", size: 747, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5286,7 +5286,7 @@ func assetsScssCorePopovers_popoverScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/popovers/_popover.scss", size: 241, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/popovers/_popover.scss", size: 241, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5306,7 +5306,7 @@ func assetsScssCoreProgresses_progressScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/progresses/_progress.scss", size: 1411, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/progresses/_progress.scss", size: 1411, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5326,7 +5326,7 @@ func assetsScssCoreReboot_rebootScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/reboot/_reboot.scss", size: 108, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/reboot/_reboot.scss", size: 108, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5346,7 +5346,7 @@ func assetsScssCoreRtl_rtlScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/rtl/_rtl.scss", size: 2110, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/rtl/_rtl.scss", size: 2110, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5366,7 +5366,7 @@ func assetsScssCoreSections_nucleoIconsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/sections/_nucleo-icons.scss", size: 3042, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/sections/_nucleo-icons.scss", size: 3042, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5386,7 +5386,7 @@ func assetsScssCoreSeparators_separatorScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/separators/_separator.scss", size: 703, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/separators/_separator.scss", size: 703, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5406,7 +5406,7 @@ func assetsScssCoreShortcuts_shortcutScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/shortcuts/_shortcut.scss", size: 440, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/shortcuts/_shortcut.scss", size: 440, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5426,7 +5426,7 @@ func assetsScssCoreTables_tableActionsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/tables/_table-actions.scss", size: 364, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/tables/_table-actions.scss", size: 364, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5446,7 +5446,7 @@ func assetsScssCoreTables_tableSortableScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/tables/_table-sortable.scss", size: 960, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/tables/_table-sortable.scss", size: 960, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5466,7 +5466,7 @@ func assetsScssCoreTables_tableScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/tables/_table.scss", size: 2130, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/tables/_table.scss", size: 2130, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5486,7 +5486,7 @@ func assetsScssCoreTimeline_timelineScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/timeline/_timeline.scss", size: 2940, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/timeline/_timeline.scss", size: 2940, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5506,7 +5506,7 @@ func assetsScssCoreType_articleScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/type/_article.scss", size: 208, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/type/_article.scss", size: 208, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5526,7 +5526,7 @@ func assetsScssCoreType_displayScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/type/_display.scss", size: 134, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/type/_display.scss", size: 134, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5546,7 +5546,7 @@ func assetsScssCoreType_headingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/type/_heading.scss", size: 1105, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/type/_heading.scss", size: 1105, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5566,7 +5566,7 @@ func assetsScssCoreType_typeScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/type/_type.scss", size: 368, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/type/_type.scss", size: 368, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5586,7 +5586,7 @@ func assetsScssCoreUtilities_backgroundsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_backgrounds.scss", size: 930, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_backgrounds.scss", size: 930, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5606,7 +5606,7 @@ func assetsScssCoreUtilities_blurableScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_blurable.scss", size: 751, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_blurable.scss", size: 751, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5626,7 +5626,7 @@ func assetsScssCoreUtilities_floatingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_floating.scss", size: 888, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_floating.scss", size: 888, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5646,7 +5646,7 @@ func assetsScssCoreUtilities_helperScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_helper.scss", size: 240, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_helper.scss", size: 240, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5666,7 +5666,7 @@ func assetsScssCoreUtilities_imageScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_image.scss", size: 99, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_image.scss", size: 99, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5686,7 +5686,7 @@ func assetsScssCoreUtilities_opacityScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_opacity.scss", size: 522, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_opacity.scss", size: 522, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5706,7 +5706,7 @@ func assetsScssCoreUtilities_overflowScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_overflow.scss", size: 130, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_overflow.scss", size: 130, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5726,7 +5726,7 @@ func assetsScssCoreUtilities_positionScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_position.scss", size: 374, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_position.scss", size: 374, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5746,7 +5746,7 @@ func assetsScssCoreUtilities_shadowsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_shadows.scss", size: 411, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_shadows.scss", size: 411, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5766,7 +5766,7 @@ func assetsScssCoreUtilities_sizingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_sizing.scss", size: 57, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_sizing.scss", size: 57, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5786,7 +5786,7 @@ func assetsScssCoreUtilities_spacingScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_spacing.scss", size: 1988, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_spacing.scss", size: 1988, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5806,7 +5806,7 @@ func assetsScssCoreUtilities_textScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_text.scss", size: 1246, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_text.scss", size: 1246, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5826,7 +5826,7 @@ func assetsScssCoreUtilities_transformScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/utilities/_transform.scss", size: 296, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/utilities/_transform.scss", size: 296, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5846,7 +5846,7 @@ func assetsScssCoreVendors_bootstrapDatepickerScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_bootstrap-datepicker.scss", size: 6520, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_bootstrap-datepicker.scss", size: 6520, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5866,7 +5866,7 @@ func assetsScssCoreVendors_bootstrapTagsinputScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_bootstrap-tagsinput.scss", size: 1442, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_bootstrap-tagsinput.scss", size: 1442, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5886,7 +5886,7 @@ func assetsScssCoreVendors_chartjsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_chartjs.scss", size: 325, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_chartjs.scss", size: 325, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5906,7 +5906,7 @@ func assetsScssCoreVendors_datatablesScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_datatables.scss", size: 630, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_datatables.scss", size: 630, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5926,7 +5926,7 @@ func assetsScssCoreVendors_dropzoneScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_dropzone.scss", size: 1384, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_dropzone.scss", size: 1384, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5946,7 +5946,7 @@ func assetsScssCoreVendors_fullcalendarScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_fullcalendar.scss", size: 4657, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_fullcalendar.scss", size: 4657, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5966,7 +5966,7 @@ func assetsScssCoreVendors_headroomScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_headroom.scss", size: 478, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_headroom.scss", size: 478, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -5986,7 +5986,7 @@ func assetsScssCoreVendors_jvectormapScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_jvectormap.scss", size: 412, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_jvectormap.scss", size: 412, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6006,7 +6006,7 @@ func assetsScssCoreVendors_lavalampScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_lavalamp.scss", size: 6692, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_lavalamp.scss", size: 6692, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6026,7 +6026,7 @@ func assetsScssCoreVendors_nouisliderScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_nouislider.scss", size: 6497, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_nouislider.scss", size: 6497, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6046,7 +6046,7 @@ func assetsScssCoreVendors_pluginDatetimepickerScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_plugin-datetimepicker.scss", size: 14234, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_plugin-datetimepicker.scss", size: 14234, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6066,7 +6066,7 @@ func assetsScssCoreVendors_quillScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_quill.scss", size: 5865, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_quill.scss", size: 5865, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6086,7 +6086,7 @@ func assetsScssCoreVendors_scrollbarScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_scrollbar.scss", size: 22768, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_scrollbar.scss", size: 22768, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6106,7 +6106,7 @@ func assetsScssCoreVendors_select2Scss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_select2.scss", size: 6440, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_select2.scss", size: 6440, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6126,7 +6126,7 @@ func assetsScssCoreVendors_sweetAlert2Scss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/core/vendors/_sweet-alert-2.scss", size: 300, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/core/vendors/_sweet-alert-2.scss", size: 300, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6146,7 +6146,7 @@ func assetsScssCustom_componentsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/custom/_components.scss", size: 2674, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/custom/_components.scss", size: 2674, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6166,7 +6166,7 @@ func assetsScssCustom_functionsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/custom/_functions.scss", size: 598, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/custom/_functions.scss", size: 598, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6186,7 +6186,7 @@ func assetsScssCustom_mixinsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/custom/_mixins.scss", size: 337, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/custom/_mixins.scss", size: 337, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6206,7 +6206,7 @@ func assetsScssCustom_utilitiesScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/custom/_utilities.scss", size: 518, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/custom/_utilities.scss", size: 518, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6226,7 +6226,7 @@ func assetsScssCustom_variablesScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/custom/_variables.scss", size: 37339, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/custom/_variables.scss", size: 37339, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -6246,7 +6246,7 @@ func assetsScssCustom_vendorsScss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/custom/_vendors.scss", size: 584, mode: os.FileMode(420), modTime: time.Unix(1658932043, 0)}
+	info := bindataFileInfo{name: "assets/scss/custom/_vendors.scss", size: 584, mode: os.FileMode(420), modTime: time.Unix(1698719565, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

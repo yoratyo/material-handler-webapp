@@ -15,6 +15,7 @@ type Repository interface {
 	GetMonitoringNFCByIP(ctx *gin.Context, ipAddress string) (dao.MonitoringNFC, error)
 	GetDefaultMonitoringNFC(ctx *gin.Context) (dao.MonitoringNFC, error)
 	GetDistinctOKP(ctx *gin.Context, status string) ([]string, error)
+	GetDistinctItemOKP(ctx *gin.Context, batchNo string) ([]dao.ItemPickingSlip, error)
 	GetBySupplierLotNoGroupByBatchNo(ctx *gin.Context, supplierLotNo string) ([]dao.TransactionNFC, error)
 	GetRegisterNFC(ctx *gin.Context, request transactionNFCDTO.PatchRegisterNFCRequestDTO) (dao.TransactionNFC, error)
 	GetByNFCTagNo(ctx *gin.Context, nfcTagNo string) ([]dao.TransactionNFC, error)
