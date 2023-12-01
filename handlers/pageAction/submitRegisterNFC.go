@@ -123,6 +123,15 @@ func (h handler) SubmitRegisterNFC(c *gin.Context) {
 		}
 
 		req.DataNFC = *nfc.NfcData
+	} else {
+		if len(req.DataNFC) < 16 {
+			tx.Rollback()
+			addError(c, "NFC data less than 16 characters.", path)
+
+			return
+		}
+
+		req.DataNFC = req.DataNFC[len(req.DataNFC)-16:]
 	}
 
 	// Patch complete register NFC

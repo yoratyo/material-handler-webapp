@@ -84,8 +84,9 @@
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <button class="btn btn-md btn-icon btn-danger" type="button" onclick="document.getElementById('nfc-code').value=''">
-                                            <span class="btn-inner--icon"><i class="ni ni-fat-remove"></i></span>
+                                        <button class="btn btn-md btn-icon btn-danger" id="remove-nfc-btn" type="button" style="display:none;" onclick="removeNFC()">
+                                            <!-- <span class="btn-inner--icon"><i class="ni ni-fat-remove"></i></span> -->
+                                            Remove
                                         </button>
                                     </div>
                                 </div>
@@ -315,16 +316,26 @@
         window.location = "/page/nfc?batchNo=" + {{ .okp }} + "&itemCode=" + this.value;
     };
 
+    // listener for Scan NFC field
     const nfcField = document.getElementById("nfc-code");
+    const removeNfcBtn = document.getElementById("remove-nfc-btn");
     nfcField.addEventListener("keyup", (event) => {
     if (event.key === "Enter") {
-        console.log('Enter key pressed '+ nfcField.value)
-
         document.getElementsByName('dataNFC').forEach(function(ele, idx) {
             ele.value = nfcField.value;
         })
+
+        nfcField.disabled = true;
+        removeNfcBtn.style.display = "block";
     }
     });
+
+    // remove NFC data from field
+    function removeNFC() {
+        nfcField.value= "";
+        nfcField.disabled = false;
+        removeNfcBtn.style.display = "none";
+    }
 
     window.onload = function () {
         setFilter();
