@@ -1,12 +1,13 @@
 package pageAction
 
 import (
+	"net/http"
+	"net/url"
+
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
 	pickingSlipDTO "github.com/yoratyo/material-handler-webapp/model/dto/pickingSlip"
 	"github.com/yoratyo/material-handler-webapp/shared"
-	"net/http"
-	"net/url"
 )
 
 func (h handler) SubmitPickingSlip(c *gin.Context) {
@@ -88,13 +89,15 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 		return
 	}
 
-	// Bulk create transaction NFC
-	_, err = h.domain.TransactionNFC.BulkCreate(c, pickingSlip, req.ActualBag)
-	if err != nil {
-		tx.Rollback()
-		addError(c, err.Error(), path)
+	if req.ActualBag != 0 {
+		// Bulk create transaction NFC
+		_, err = h.domain.TransactionNFC.BulkCreate(c, pickingSlip, req.ActualBag)
+		if err != nil {
+			tx.Rollback()
+			addError(c, err.Error(), path)
 
-		return
+			return
+		}
 	}
 
 	// commit transaction
