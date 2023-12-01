@@ -141,7 +141,7 @@ func assetsCssAssetGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/css/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1699544801, 0)}
+	info := bindataFileInfo{name: "assets/css/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1701429668, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

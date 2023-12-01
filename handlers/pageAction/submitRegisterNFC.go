@@ -2,13 +2,14 @@ package pageAction
 
 import (
 	"fmt"
+	"net/http"
+	"net/url"
+
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
 	pickingSlipDTO "github.com/yoratyo/material-handler-webapp/model/dto/pickingSlip"
 	transactionNFCDTO "github.com/yoratyo/material-handler-webapp/model/dto/transactionNFC"
 	"github.com/yoratyo/material-handler-webapp/shared"
-	"net/http"
-	"net/url"
 )
 
 func (h handler) SubmitRegisterNFC(c *gin.Context) {
@@ -111,16 +112,18 @@ func (h handler) SubmitRegisterNFC(c *gin.Context) {
 		return
 	}
 
-	// Get NFC data with validation
-	nfc, err := h.domain.TransactionNFC.GetMonitoringNFC(c)
-	if err != nil {
-		tx.Rollback()
-		addError(c, err.Error(), path)
+	if req.DataNFC == "" {
+		// Get NFC data with validation
+		nfc, err := h.domain.TransactionNFC.GetMonitoringNFC(c)
+		if err != nil {
+			tx.Rollback()
+			addError(c, err.Error(), path)
 
-		return
+			return
+		}
+
+		req.DataNFC = *nfc.NfcData
 	}
-
-	req.DataNFC = *nfc.NfcData
 
 	// Patch complete register NFC
 	err = h.domain.TransactionNFC.PatchCompleteRegister(c, trxNFC.ID, req)

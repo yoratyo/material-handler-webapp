@@ -71,6 +71,24 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row" style="margin-left: 2px;">
+                                    <div class="col">
+                                            <div class="input-group input-group-merge input-group-alternative">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="ni ni-credit-card"></i></span>
+                                                </div>
+                                                <input class="form-control" id="nfc-code" placeholder="Scan NFC Here.."
+                                                       type="text"
+                                                       name="dataNFC-input">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <button class="btn btn-md btn-icon btn-danger" type="button" onclick="document.getElementById('nfc-code').value=''">
+                                            <span class="btn-inner--icon"><i class="ni ni-fat-remove"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
                                 <p>
                                 <form role="form" name="nfcForm" method="POST" action="/action/transaction-NFC/submit">
                                     <div class="form-group mb-3">
@@ -177,6 +195,7 @@
                                                 <form role="form" name="nfcForm" method="POST"
                                                       action="/action/transaction-NFC/submit">
                                                     <input type="hidden" value="{{ .ID }}" name="idTransaction">
+                                                    <input type="hidden" value="" name="dataNFC">
                                                     <button class="btn btn-icon btn-primary" type="button"
                                                             onclick="this.disabled=true;this.className='btn btn-icon btn-success'; this.form.submit();">
                                                         <span class="btn-inner--icon"><i class="ni ni-send"></i></span>
@@ -296,6 +315,16 @@
         window.location = "/page/nfc?batchNo=" + {{ .okp }} + "&itemCode=" + this.value;
     };
 
+    const nfcField = document.getElementById("nfc-code");
+    nfcField.addEventListener("keyup", (event) => {
+    if (event.key === "Enter") {
+        console.log('Enter key pressed '+ nfcField.value)
+
+        document.getElementsByName('dataNFC').forEach(function(ele, idx) {
+            ele.value = nfcField.value;
+        })
+    }
+    });
 
     window.onload = function () {
         setFilter();
