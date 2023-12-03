@@ -24,4 +24,5 @@ type Service interface {
 	GetTodayGatewayMonitoring(ctx *gin.Context) (dao.GatewayMonitoring, error)
 	GetListUnreadNFC(ctx *gin.Context) ([]dao.NfcReader, error)
 	BulkPatchReadNFC(ctx *gin.Context, tags []string) error
+	ValidateNFCTagNo(ctx *gin.Context, nfcTagNo string) error
 }

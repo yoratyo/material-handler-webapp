@@ -132,6 +132,14 @@ func (h handler) SubmitRegisterNFC(c *gin.Context) {
 		}
 
 		req.DataNFC = req.DataNFC[len(req.DataNFC)-16:]
+
+		err = h.domain.TransactionNFC.ValidateNFCTagNo(c, req.DataNFC)
+		if err != nil {
+			tx.Rollback()
+			addError(c, err.Error(), path)
+
+			return
+		}
 	}
 
 	// Patch complete register NFC

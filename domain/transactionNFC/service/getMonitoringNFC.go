@@ -2,6 +2,7 @@ package service
 
 import (
 	"errors"
+
 	"github.com/gin-gonic/gin"
 	"github.com/yoratyo/material-handler-webapp/model/dao"
 	"gorm.io/gorm"
@@ -30,12 +31,9 @@ func (s *service) GetMonitoringNFC(ctx *gin.Context) (dao.MonitoringNFC, error) 
 	}
 
 	// Validate nfc already registered
-	trxItems, err := s.repository.GetByNFCTagNo(ctx, *nfc.NfcData)
+	err = s.ValidateNFCTagNo(ctx, *nfc.NfcData)
 	if err != nil {
 		return dao.MonitoringNFC{}, err
-	}
-	if len(trxItems) > 0 {
-		return dao.MonitoringNFC{}, errors.New("NFC already registered")
 	}
 
 	return nfc, nil
