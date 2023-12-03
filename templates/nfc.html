@@ -335,6 +335,10 @@
         nfcField.value= "";
         nfcField.disabled = false;
         removeNfcBtn.style.display = "none";
+
+        document.getElementsByName('dataNFC').forEach(function(ele, idx) {
+            ele.value = "";
+        })
     }
 
     window.onload = function () {
