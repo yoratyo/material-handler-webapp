@@ -12,8 +12,9 @@ import (
 
 func (h handler) SubmitPickingSlip(c *gin.Context) {
 	var (
-		err  error
-		path = "/page/picking"
+		err    error
+		path   = "/page/picking"
+		params = url.Values{}
 	)
 
 	session := sessions.Default(c)
@@ -39,8 +40,20 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	var req pickingSlipDTO.PatchCompletePickRequestDTO
 	err = c.ShouldBind(&req)
 	if err != nil {
-		addError(c, err.Error(), path)
+		addError(c, err.Error(), path, params)
 		return
+	}
+
+	if req.BatchNo != nil {
+		if *req.BatchNo != "0" {
+			params.Add("batchNo", *req.BatchNo)
+		}
+	}
+
+	if req.ItemCode != nil {
+		if *req.ItemCode != "0" {
+			params.Add("itemCode", *req.ItemCode)
+		}
 	}
 
 	req.OperatorPick = user.Username
@@ -52,7 +65,7 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	defer func() {
 		if r := recover(); r != nil {
 			tx.Rollback()
-			addError(c, "Panic error", path)
+			addError(c, "Panic error", path, params)
 			return
 		}
 	}()
@@ -61,7 +74,7 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	pickingSlip, err := h.domain.PickingSlip.GetByID(c, req.ID)
 	if err != nil {
 		tx.Rollback()
-		addError(c, err.Error(), path)
+		addError(c, err.Error(), path, params)
 
 		return
 	}
@@ -69,13 +82,13 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	// validate picking slip
 	if !pickingSlip.IsReadyForPick || pickingSlip.IsCancel || pickingSlip.IsCompletePick {
 		tx.Rollback()
-		addError(c, "Data picking slip not valid to pick", path)
+		addError(c, "Data picking slip not valid to pick", path, params)
 
 		return
 	}
 	if pickingSlip.WeightPack == nil {
 		tx.Rollback()
-		addError(c, "Weight pack is empty", path)
+		addError(c, "Weight pack is empty", path, params)
 
 		return
 	}
@@ -84,7 +97,7 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	err = h.domain.PickingSlip.PatchCompletePick(c, req.ID, req)
 	if err != nil {
 		tx.Rollback()
-		addError(c, err.Error(), path)
+		addError(c, err.Error(), path, params)
 
 		return
 	}
@@ -94,7 +107,7 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 		_, err = h.domain.TransactionNFC.BulkCreate(c, pickingSlip, req.ActualBag)
 		if err != nil {
 			tx.Rollback()
-			addError(c, err.Error(), path)
+			addError(c, err.Error(), path, params)
 
 			return
 		}
@@ -103,13 +116,16 @@ func (h handler) SubmitPickingSlip(c *gin.Context) {
 	// commit transaction
 	if err := tx.Commit().Error; err != nil {
 		tx.Rollback()
-		addError(c, err.Error(), path)
+		addError(c, err.Error(), path, params)
 
 		return
 	}
 
 	shared.SetSuccessCookie(c, "Success to submit picking slip")
 	location := url.URL{Path: path}
+	if len(params) != 0 {
+		location.RawQuery = params.Encode()
+	}
 	c.Redirect(http.StatusFound, location.RequestURI())
 	c.Abort()
 }

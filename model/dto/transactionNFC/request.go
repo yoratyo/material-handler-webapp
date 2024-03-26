@@ -11,7 +11,9 @@ type (
 		BatchNo          *string `form:"batchNo" binding:"omitempty"`
 		SupplierLotNo    *string `form:"supplierLotNo" binding:"omitempty"`
 		OperatorRegister string
-		DataNFC          string `form:"dataNFC" binding:"omitempty"`
+		DataNFC          string  `form:"dataNFC" binding:"omitempty"`
+		OKPNo            *string `form:"okpNo" binding:"omitempty"`
+		ItemCode         *string `form:"itemCode" binding:"omitempty"`
 	}
 	PatchGatewayCheckRequestDTO struct {
 		Items []DetailPatchGatewayCheck `json:"items" binding="required"`

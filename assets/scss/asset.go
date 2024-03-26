@@ -406,7 +406,7 @@ func assetsScssAssetGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "assets/scss/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1701602566, 0)}
+	info := bindataFileInfo{name: "assets/scss/asset.go", size: 0, mode: os.FileMode(420), modTime: time.Unix(1711411429, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

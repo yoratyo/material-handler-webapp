@@ -1,11 +1,12 @@
 package pageAction
 
 import (
+	"net/http"
+	"net/url"
+
 	"github.com/gin-gonic/gin"
 	"github.com/yoratyo/material-handler-webapp/domain"
 	"github.com/yoratyo/material-handler-webapp/shared"
-	"net/http"
-	"net/url"
 )
 
 type (
@@ -28,8 +29,11 @@ func NewHandler(domain domain.Domain, resource shared.Resource) (Handler, error)
 	}, nil
 }
 
-func addError(c *gin.Context, msg string, path string) {
+func addError(c *gin.Context, msg string, path string, params url.Values) {
 	shared.SetErrorCookie(c, msg)
 	location := url.URL{Path: path}
+	if len(params) != 0 {
+		location.RawQuery = params.Encode()
+	}
 	c.Redirect(http.StatusFound, location.RequestURI())
 }

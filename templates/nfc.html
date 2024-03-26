@@ -198,7 +198,7 @@
                                                     <input type="hidden" value="{{ .ID }}" name="idTransaction">
                                                     <input type="hidden" value="" name="dataNFC">
                                                     <button class="btn btn-icon btn-primary" type="button"
-                                                            onclick="this.disabled=true;this.className='btn btn-icon btn-success'; this.form.submit();">
+                                                            onclick="this.disabled=true;this.className='btn btn-icon btn-success'; submitForm(this.form);">
                                                         <span class="btn-inner--icon"><i class="ni ni-send"></i></span>
                                                     </button>
                                                 </form>
@@ -339,6 +339,12 @@
         document.getElementsByName('dataNFC').forEach(function(ele, idx) {
             ele.value = "";
         })
+    }
+
+    // Form NFC submit
+    function submitForm(form) {
+        form.action = "/action/transaction-NFC/submit?okpNo=" + {{ .okp }} + "&itemCode=" + {{ .activeItemCode }};
+        form.submit();
     }
 
     window.onload = function () {
